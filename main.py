@@ -14,9 +14,22 @@ def testar_conexao():
     )
     return resposta.output_text
 
+def classificar_sentimento(comentario):
+    resposta = client.responses.create(
+        model=MODELO,
+        input=(
+            "Classifique o sentimento do comentário abaixo como positivo, negativo ou neutro"
+            "Responda apenas com uma dessas palavras.\n\n"
+            f"Comentário: {comentario}"
+        )
+    )
+
+    return resposta.output_text
+
 def main():
-    print("Testando a conexão com o modelo...")
-    print(testar_conexao())
+    print(":: Classificador de sentimentos de um e-commerce")
+    comentario = input("Digite um comentário para avaliação: ")
+    print(f"Sentimento do comentario: {classificar_sentimento(comentario)}")
 
 if __name__ == "__main__":
     main()
