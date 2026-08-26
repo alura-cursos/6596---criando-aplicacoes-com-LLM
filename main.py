@@ -14,14 +14,17 @@ def testar_conexao():
     )
     return resposta.output_text
 
-def classificar_sentimento(comentario):
+def classificar_sentimento(comentario, detalhamento):
+    INSTRUCAO_SISTEMA = "Você é um assistente de atendimento de e-commerce e " \
+    "você deve classificar os sentimentos de um comentário entre positivo, negativo ou neutro e explicar o motivo."
+
     resposta = client.responses.create(
         model=MODELO,
-        input=(
-            "Classifique o sentimento do comentário abaixo como positivo, negativo ou neutro"
-            "Responda apenas com uma dessas palavras.\n\n"
-            f"Comentário: {comentario}"
-        )
+        text={"verbosity": detalhamento},
+        input=[
+            {"role":"system", "content": INSTRUCAO_SISTEMA},
+            {"role":"user", "content": comentario},
+        ],
     )
 
     return resposta.output_text
@@ -29,7 +32,11 @@ def classificar_sentimento(comentario):
 def main():
     print(":: Classificador de sentimentos de um e-commerce")
     comentario = input("Digite um comentário para avaliação: ")
-    print(f"Sentimento do comentario: {classificar_sentimento(comentario)}")
+
+    for detalhamento in ["low", "high"]:
+        print(f"Testando com verbosity = {detalhamento}")
+        print(classificar_sentimento(comentario, detalhamento))
+        print("\n")
 
 if __name__ == "__main__":
     main()
