@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import pandas as pd
+import json
 
 load_dotenv()
 
@@ -62,20 +63,45 @@ def classificar_problema(comentario, detalhamento="low"):
         input=mensagens,
     )
 
+    print(resposta.model_dump_json(indent=2))
+
     return resposta.output_text
 
+def analisar_comentario_estruturado(comentario):
+    INSTRUCAO_SISTEMA = (
+        "Você é um analista de e-commerce e deve avaliar os comentários dos clientes"
+        "Retorne um JSON com os campos: "
+        "'sentimento' (positivo, negativo ou neutro)"
+        "'categoria' (o tipo do problema ou elogio)"
+        "'resumo' (uma frase falando do problema)" 
+    )
+
+    resposta = client.responses.create(
+        model=MODELO,
+        input=[
+            {"role": "developer", "content": INSTRUCAO_SISTEMA},
+            {"role" : "user", "content": comentario}
+        ],
+        text={"format": {"type": "json_object"}}   
+    )
+
+    return json.loads(resposta.output_text)
+    
 
 def main():
-    reclamacoes = carregar_reclamacoes()
-    print(f"Relamações presentes na base: {len(reclamacoes)}\n")
+    comentario = "Produto danificado, e a entrega ainda atrasou!!!!"
+    resultado = analisar_comentario_estruturado(comentario)
+    print(resultado)
+    # reclamacoes = carregar_reclamacoes()
+    # print(f"Relamações presentes na base: {len(reclamacoes)}\n")
 
-    for indice, linha in reclamacoes.head(5).iterrows():
-        comentario = linha["Comentários"]
-        categoria = classificar_problema(comentario)
+    # for indice, linha in reclamacoes.head(5).iterrows():
+    #     comentario = linha["Comentários"]
+    #     categoria = classificar_problema(comentario)
 
-        print(f"Reclamação: {comentario}")
-        print(f"{categoria}")
-        print("-" * 40)
+    #     print(f"Reclamação: {comentario}")
+    #     print(f"{categoria}")
+    #     print("-" * 40)
               
 
 if __name__ == "__main__":
