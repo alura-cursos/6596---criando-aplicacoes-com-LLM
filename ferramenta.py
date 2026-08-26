@@ -44,23 +44,36 @@ def estatisticas_por_regiao(regiao):
         "taxa_reclamacao" : round((regiao_dados["Reclamação"] == "Sim").mean() * 100, 1)
     }
 
-def main():
+def responder(pergunta):
+
+    conversa = [{"role": "user", "content" : pergunta}]
+
     resposta = client.responses.create(
         model=MODELO,
         instructions="Você é um analista de e-ecommerce, use as ferramentas para consultar as estatísticas solicitadas",
-        input=PERGUNTA,
+        input=conversa,
         tools=FERRAMENTAS
     )
+
+    conversa += resposta.output
 
     for uma_resposta in resposta.output:
         if uma_resposta.type == "function_call":
             argumentos = json.loads(uma_resposta.arguments)
-            print(f"O modelu pediu: {uma_resposta.name}({argumentos})")
-
             resultado = estatisticas_por_regiao(**argumentos)
+            print(f"[Ferramenta] {uma_resposta.name} - ({argumentos})")
 
-            print("Resultado da ferramenta: ")
-            print(resultado)
+            conversa.append(
+                {
+                    "type": "function_call_output",
+                    "call_id" : uma_resposta.call_id,
+                    "output" : json.dumps(resultado, ensure_ascii=False)
+                }
+            )
+
+
+def main():
+    
 
 
 if __name__ == "__main__":
