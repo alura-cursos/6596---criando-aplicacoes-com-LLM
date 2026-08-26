@@ -42,7 +42,7 @@ def classificar_problema(comentario, detalhamento="low"):
     CONTEXTO = (
         "Categorias possíveis: produto danificado, produto diferente do pedido"
         "quantidade incorreta, embalagem violada, cobrança duplicada", 
-        "atraso na entregam, atendimento ruim"
+        "atraso na entregam, atendimento ruim. Caso tenha mais de uma categoria use um | e apresente as duas"
     )
 
     MENSAGEM_SISTEMA = f"{INSTRUCAO_SISTEMA}\n\n{CONTEXTO}"
@@ -54,7 +54,7 @@ def classificar_problema(comentario, detalhamento="low"):
         {"role": "assistant", "content": "Categoria: Embalagem Violada"},
     ]
 
-    mensagens = [{"role":"system", "content": INSTRUCAO_SISTEMA}] + EXEMPLOS + [{"role":"user", "content": f"Reclamação: {comentario}"}]
+    mensagens = [{"role":"system", "content": MENSAGEM_SISTEMA}] + EXEMPLOS + [{"role":"user", "content": f"Reclamação: {comentario}"}]
     
     resposta = client.responses.create(
         model=MODELO,
