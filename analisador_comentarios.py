@@ -33,3 +33,34 @@ def analisar_comentario(comentario):
     )
 
     return resposta.output_parsed
+
+def analisar_base(quantidade=1):
+    dados = pd.read_csv(CAMINHO_CSV, sep=";")
+    comentarios = dados[dados["Comentários"] != "-"].head(quantidade)
+
+    resultados = []
+
+    for indice, linha in comentarios.iterrows():
+        analise = analisar_comentario(linha["Comentários"])
+
+        resultados.append(
+            {
+                "regiao" : linha["Região"],
+                "produto" : linha["Produto"],
+                "nota" : int(linha["Nota"]),
+                "comentario" : linha["Comentários"],
+                "sentimentos" : analise.sentimento,
+                "categoria" : analise.categoria,
+                "resumo" : analise.resumo
+            }
+        )
+    return resultados
+
+def main():
+    resultados = analisar_base(1)
+    with open(CAMINHO_SAIDA, "w", encoding="utf-8") as arquivo:
+        json.dump(resultados, arquivo, ensure_ascii=False, indent=2)
+
+
+if __name__ == "__main__":
+    main()
