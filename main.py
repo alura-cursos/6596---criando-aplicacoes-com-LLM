@@ -88,6 +88,8 @@ def analisar_comentario_estruturado(comentario):
     return json.loads(resposta.output_text)
     
 
+
+
 def main():
     comentario = "Produto danificado, e a entrega ainda atrasou!!!!"
     resultado = analisar_comentario_estruturado(comentario)
