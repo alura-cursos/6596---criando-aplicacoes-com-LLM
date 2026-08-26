@@ -9,7 +9,7 @@ ID Transação;ID Cliente;Data Compra;Data Envio;Tempo Entrega (dias);Região;Ca
 8;CUST00008;20/06/25;22/06/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;690;Não;Ótima qualidade;4
 9;CUST00009;20/06/25;24/06/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;284;Não;-;3
 10;CUST00010;27/06/25;28/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1729;Não;-;3
-11;CUST00011;15/06/25;16/06/25;1;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;896;Sim;Cobrança duplicada;1
+11;CUST00011;15/06/25;16/06/25;1;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;896;Sim;Cobrança duplicada e cor incorreta;1
 12;CUST00012;16/06/25;21/06/25;5;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2542;Sim;Quantidade incorreta;1
 13;CUST00013;25/05/25;04/06/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1681;Não;-;3
 14;CUST00014;30/06/25;04/07/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;140;Sim;Produto danificado;1

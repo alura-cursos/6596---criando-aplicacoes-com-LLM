@@ -20,7 +20,7 @@ def carregar_reclamacoes():
     dados = pd.read_csv(CAMINHO_CSV, sep=";")
     return dados[(dados["Reclamação"] == "Sim") & (dados["Comentários"] != "-")]
 
-def classificar_sentimento(produto, comentario, detalhamento="low"):
+def analisar_comentario(produto, comentario, detalhamento="low"):
     INSTRUCAO_SISTEMA = "Você é um assistente de atendimento de e-commerce e " \
     "você deve classificar os sentimentos de um comentário entre positivo, negativo ou neutro e explicar o motivo."
 
@@ -35,19 +35,46 @@ def classificar_sentimento(produto, comentario, detalhamento="low"):
 
     return resposta.output_text
 
+def classificar_problema(comentario, detalhamento="low"):
+    INSTRUCAO_SISTEMA = "Você é um assistente de atendimento de e-commerce e " \
+        "você deve classificar a reclamação em uma única categoria de produto."
+
+    CONTEXTO = (
+        "Categorias possíveis: produto danificado, produto diferente do pedido"
+        "quantidade incorreta, embalagem violada, cobrança duplicada", 
+        "atraso na entregam, atendimento ruim"
+    )
+
+    MENSAGEM_SISTEMA = f"{INSTRUCAO_SISTEMA}\n\n{CONTEXTO}"
+
+    EXEMPLOS = [
+        {"role": "user", "content": "Reclamação: Chegou um condicionador no lugar do shampoo."},
+        {"role": "assistant", "content": "Categoria: Produto diferente do pedido"},
+        {"role": "user", "content": "Reclamação: O pacote estava rasgato e aberto, vazando produto"},
+        {"role": "assistant", "content": "Categoria: Embalagem Violada"},
+    ]
+
+    mensagens = [{"role":"system", "content": INSTRUCAO_SISTEMA}] + EXEMPLOS + [{"role":"user", "content": f"Reclamação: {comentario}"}]
+    
+    resposta = client.responses.create(
+        model=MODELO,
+        text={"verbosity": detalhamento},
+        input=mensagens,
+    )
+
+    return resposta.output_text
+
+
 def main():
     reclamacoes = carregar_reclamacoes()
     print(f"Relamações presentes na base: {len(reclamacoes)}\n")
 
     for indice, linha in reclamacoes.head(5).iterrows():
-        nome_produto = linha["Produto"]
-        comentario_produto = linha["Comentários"]
+        comentario = linha["Comentários"]
+        categoria = classificar_problema(comentario)
 
-        problema = classificar_sentimento(nome_produto, comentario_produto)
-
-        print(f"Produto: {nome_produto}")
-        print(f"Reclamação: {comentario_produto}")
-        print(f"Problema: {problema}")
+        print(f"Reclamação: {comentario}")
+        print(f"{categoria}")
         print("-" * 40)
               
 
