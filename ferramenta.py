@@ -36,21 +36,28 @@ def estatisticas_por_regiao(regiao):
     if regiao_dados.empty:
         return {"erro": f"Região '{regiao}' não encontrada"}
 
+    reclamacoes = regiao_dados[
+        (regiao_dados["Reclamação"] == "Sim") & (regiao_dados["Comentários"] != "-")
+    ]
+    top_reclamacoes = reclamacoes["Comentários"].value_counts().head(3)
+
+
     return {
         "regiao" : regiao,
         "total_compras" : len(regiao_dados),
         "nota_medias" : round(regiao_dados["Nota"].mean(), 2),
         "entrega_media_dias" : round(regiao_dados["Tempo Entrega (dias)"].mean(), 1),
-        "taxa_reclamacao" : round((regiao_dados["Reclamação"] == "Sim").mean() * 100, 1)
+        "taxa_reclamacao" : round((regiao_dados["Reclamação"] == "Sim").mean() * 100, 1),
+        "reclamacoes_frequentes": {str(k): int(v) for k, v in top_reclamacoes.items()},
     }
 
 def responder(pergunta):
-
+    INSTRUCOES_SISTEMA ="Você é um analista de e-ecommerce, use as ferramentas para consultar as estatísticas solicitadas"
     conversa = [{"role": "user", "content" : pergunta}]
 
     resposta = client.responses.create(
         model=MODELO,
-        instructions="Você é um analista de e-ecommerce, use as ferramentas para consultar as estatísticas solicitadas",
+        instructions=INSTRUCOES_SISTEMA,
         input=conversa,
         tools=FERRAMENTAS
     )
@@ -71,9 +78,18 @@ def responder(pergunta):
                 }
             )
 
+    resposta_final = client.responses.create(
+        model=MODELO,
+        instructions=INSTRUCOES_SISTEMA,
+        input=conversa,
+        tools=FERRAMENTAS
+    )
+
+    return resposta_final.output_text
 
 def main():
-    
+    pergunta = "Como está a região Sul? Quais os principais problemas?"
+    print(responder(pergunta))
 
 
 if __name__ == "__main__":
