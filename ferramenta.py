@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import pandas as pd
+import json
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -43,3 +44,24 @@ def estatisticas_por_regiao(regiao):
         "taxa_reclamacao" : round((regiao_dados["Reclamação"] == "Sim").mean() * 100, 1)
     }
 
+def main():
+    resposta = client.responses.create(
+        model=MODELO,
+        instructions="Você é um analista de e-ecommerce, use as ferramentas para consultar as estatísticas solicitadas",
+        input=PERGUNTA,
+        tools=FERRAMENTAS
+    )
+
+    for uma_resposta in resposta.output:
+        if uma_resposta.type == "function_call":
+            argumentos = json.loads(uma_resposta.arguments)
+            print(f"O modelu pediu: {uma_resposta.name}({argumentos})")
+
+            resultado = estatisticas_por_regiao(**argumentos)
+
+            print("Resultado da ferramenta: ")
+            print(resultado)
+
+
+if __name__ == "__main__":
+    main()
