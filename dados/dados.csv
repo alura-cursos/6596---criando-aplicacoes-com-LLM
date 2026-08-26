@@ -1,0 +1,1501 @@
+ID Transação;ID Cliente;Data Compra;Data Envio;Tempo Entrega (dias);Região;Categoria Produto;Produto;Forma Pagamento;Valor Compra (R$);Reclamação;Comentários;Nota
+1;CUST00001;07/06/25;16/06/25;9;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;526;Não;-;3
+2;CUST00002;30/05/25;02/06/25;3;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2937;Não;-;3
+3;CUST00003;30/06/25;05/07/25;5;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1537;Não;-;3
+4;CUST00004;18/05/25;21/05/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;933;Não;-;3
+5;CUST00005;25/05/25;29/05/25;4;Centro-Oeste;Bebidas;Água Mineral 1,5L;PIX;285;Não;-;3
+6;CUST00006;23/05/25;25/05/25;2;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;630;Não;-;3
+7;CUST00007;30/06/25;05/07/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1589;Não;-;3
+8;CUST00008;20/06/25;22/06/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;690;Não;Ótima qualidade;4
+9;CUST00009;20/06/25;24/06/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;284;Não;-;3
+10;CUST00010;27/06/25;28/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1729;Não;-;3
+11;CUST00011;15/06/25;16/06/25;1;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;896;Sim;Cobrança duplicada;1
+12;CUST00012;16/06/25;21/06/25;5;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2542;Sim;Quantidade incorreta;1
+13;CUST00013;25/05/25;04/06/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1681;Não;-;3
+14;CUST00014;30/06/25;04/07/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;140;Sim;Produto danificado;1
+15;CUST00015;29/06/25;03/07/25;4;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;300;Não;-;3
+16;CUST00016;28/05/25;31/05/25;3;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Dinheiro;343;Não;Entrega rápida e sem problemas;4
+17;CUST00017;17/06/25;26/06/25;9;Sul;Alimentos Básicos;Farinha de Trigo 1kg;PIX;626;Não;-;3
+18;CUST00018;30/06/25;01/07/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;643;Não;-;3
+19;CUST00019;29/06/25;06/07/25;7;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;333;Sim;Embalagem violada;1
+20;CUST00020;13/06/25;18/06/25;5;Sul;Higiene Pessoal;Shampoo 400ml;PIX;1304;Sim;Produto diferente do pedido;2
+21;CUST00021;29/05/25;03/06/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;PIX;698;Não;-;3
+22;CUST00022;23/05/25;27/05/25;4;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;644;Não;-;3
+23;CUST00023;16/05/25;23/05/25;7;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;786;Não;-;3
+24;CUST00024;22/06/25;23/06/25;1;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;394;Sim;Atendimento ruim;2
+25;CUST00025;25/05/25;29/05/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;994;Não;-;3
+26;CUST00026;01/06/25;05/06/25;4;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;796;Não;-;3
+27;CUST00027;27/05/25;01/06/25;5;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Débito;211;Não;Produto conforme anunciado;5
+28;CUST00028;03/06/25;05/06/25;2;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;425;Sim;Atraso na entrega;1
+29;CUST00029;10/06/25;15/06/25;5;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Débito;283;Não;-;3
+30;CUST00030;30/05/25;03/06/25;4;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1342;Não;-;3
+31;CUST00031;26/05/25;30/05/25;4;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;547;Não;-;3
+32;CUST00032;17/06/25;19/06/25;2;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;470;Não;-;3
+33;CUST00033;05/06/25;08/06/25;3;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;473;Não;Entrega rápida e sem problemas;4
+34;CUST00034;26/06/25;01/07/25;5;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;267;Não;-;3
+35;CUST00035;19/05/25;20/05/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;949;Sim;Atendimento ruim;2
+36;CUST00036;03/06/25;05/06/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1722;Não;-;3
+37;CUST00037;23/06/25;25/06/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;442;Sim;Produto danificado;1
+38;CUST00038;20/06/25;21/06/25;1;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;548;Não;Compra sem complicações;4
+39;CUST00039;22/05/25;27/05/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;639;Não;Atendimento excelente;5
+40;CUST00040;23/05/25;25/05/25;2;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;135;Não;-;3
+41;CUST00041;08/06/25;15/06/25;7;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1870;Não;-;3
+42;CUST00042;25/05/25;28/05/25;3;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1717;Não;-;3
+43;CUST00043;21/06/25;22/06/25;1;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;174;Não;-;3
+44;CUST00044;31/05/25;05/06/25;5;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1498;Não;-;3
+45;CUST00045;26/06/25;27/06/25;1;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;841;Não;-;3
+46;CUST00046;30/05/25;04/06/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1403;Sim;Produto danificado;1
+47;CUST00047;24/05/25;25/05/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;451;Não;-;3
+48;CUST00048;19/05/25;21/05/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1663;Não;-;3
+49;CUST00049;15/05/25;17/05/25;2;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;880;Não;Produto conforme anunciado;4
+50;CUST00050;19/05/25;27/05/25;8;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;447;Sim;Atraso na entrega;2
+51;CUST00051;18/06/25;19/06/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;908;Não;-;3
+52;CUST00052;31/05/25;04/06/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;2005;Não;-;3
+53;CUST00053;25/06/25;01/07/25;6;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;591;Não;-;3
+54;CUST00054;10/06/25;11/06/25;1;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;327;Sim;Produto diferente do pedido;1
+55;CUST00055;29/06/25;01/07/25;2;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Débito;263;Não;-;3
+56;CUST00056;21/05/25;27/05/25;6;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1653;Não;-;3
+57;CUST00057;15/06/25;23/06/25;8;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;389;Não;-;3
+58;CUST00058;06/06/25;14/06/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2067;Não;-;3
+59;CUST00059;13/06/25;18/06/25;5;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Débito;381;Não;Produto conforme anunciado;5
+60;CUST00060;03/06/25;05/06/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;152;Não;-;3
+61;CUST00061;16/06/25;25/06/25;9;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;496;Não;-;3
+62;CUST00062;18/05/25;20/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;314;Não;-;3
+63;CUST00063;30/05/25;04/06/25;5;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;792;Não;-;3
+64;CUST00064;31/05/25;01/06/25;1;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;123;Não;-;3
+65;CUST00065;15/05/25;16/05/25;1;Nordeste;Higiene Pessoal;Sabonete em Barra;Dinheiro;278;Não;-;3
+66;CUST00066;22/05/25;31/05/25;9;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;493;Não;-;3
+67;CUST00067;08/06/25;14/06/25;6;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;132;Não;-;3
+68;CUST00068;18/05/25;28/05/25;10;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1067;Não;Compra sem complicações;4
+69;CUST00069;06/06/25;12/06/25;6;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;281;Não;-;3
+70;CUST00070;24/06/25;04/07/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;279;Sim;Prazo de entrega excedido;2
+71;CUST00071;20/05/25;22/05/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1225;Não;-;3
+72;CUST00072;20/05/25;25/05/25;5;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;811;Sim;Atendimento ruim;1
+73;CUST00073;16/06/25;20/06/25;4;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1777;Não;-;3
+74;CUST00074;09/06/25;16/06/25;7;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;764;Não;-;3
+75;CUST00075;20/05/25;25/05/25;5;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1691;Não;-;3
+76;CUST00076;12/06/25;17/06/25;5;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;427;Não;-;3
+77;CUST00077;30/05/25;07/06/25;8;Norte;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1391;Não;-;3
+78;CUST00078;12/06/25;17/06/25;5;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1977;Não;-;3
+79;CUST00079;20/06/25;30/06/25;10;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2704;Não;-;3
+80;CUST00080;10/06/25;15/06/25;5;Nordeste;Higiene Pessoal;Creme Dental 90g;PIX;270;Sim;Atendimento ruim;2
+81;CUST00081;13/06/25;18/06/25;5;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;332;Não;-;3
+82;CUST00082;26/05/25;02/06/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;544;Não;-;3
+83;CUST00083;22/06/25;24/06/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1292;Não;-;3
+84;CUST00084;29/05/25;04/06/25;6;Sul;Bebidas;Refrigerante Cola 2L;PIX;846;Não;-;3
+85;CUST00085;19/06/25;22/06/25;3;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;426;Não;-;3
+86;CUST00086;30/06/25;07/07/25;7;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;771;Não;-;3
+87;CUST00087;26/05/25;31/05/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1994;Sim;Cobrança duplicada;2
+88;CUST00088;23/06/25;01/07/25;8;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;186;Não;-;3
+89;CUST00089;03/06/25;08/06/25;5;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;607;Não;-;3
+90;CUST00090;16/05/25;20/05/25;4;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;789;Não;-;3
+91;CUST00091;20/06/25;25/06/25;5;Sul;Alimentos Básicos;Farinha de Trigo 1kg;PIX;795;Sim;Produto danificado;2
+92;CUST00092;26/05/25;04/06/25;9;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;473;Não;-;3
+93;CUST00093;20/06/25;25/06/25;5;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1685;Não;-;3
+94;CUST00094;17/06/25;25/06/25;8;Sul;Bebidas;Suco de Laranja 1L;PIX;530;Não;-;3
+95;CUST00095;13/06/25;15/06/25;2;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;420;Sim;Produto diferente do pedido;2
+96;CUST00096;08/06/25;12/06/25;4;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1589;Sim;Produto diferente do pedido;1
+97;CUST00097;25/06/25;27/06/25;2;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;898;Não;-;3
+98;CUST00098;07/06/25;10/06/25;3;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;433;Não;-;3
+99;CUST00099;28/06/25;02/07/25;4;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;280;Não;-;3
+100;CUST00100;24/05/25;29/05/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1278;Não;-;3
+101;CUST00101;19/06/25;25/06/25;6;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;661;Não;-;3
+102;CUST00102;07/06/25;11/06/25;4;Nordeste;Bebidas;Água Mineral 1,5L;PIX;235;Não;-;3
+103;CUST00103;25/05/25;01/06/25;7;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1630;Não;-;3
+104;CUST00104;06/06/25;16/06/25;10;Sul;Limpeza Doméstica;Sabão em Pó 1kg;PIX;701;Não;-;3
+105;CUST00105;19/05/25;28/05/25;9;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;746;Não;Ótima qualidade;5
+106;CUST00106;30/05/25;04/06/25;5;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;428;Não;-;3
+107;CUST00107;14/06/25;15/06/25;1;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1173;Não;-;3
+108;CUST00108;28/05/25;29/05/25;1;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;959;Não;-;3
+109;CUST00109;24/06/25;29/06/25;5;Nordeste;Limpeza Doméstica;Esponja Múltipla;PIX;178;Não;-;3
+110;CUST00110;14/06/25;24/06/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;268;Não;-;3
+111;CUST00111;12/06/25;15/06/25;3;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2786;Não;-;3
+112;CUST00112;25/05/25;02/06/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;655;Não;-;3
+113;CUST00113;06/06/25;13/06/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;457;Não;-;3
+114;CUST00114;24/05/25;29/05/25;5;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;540;Não;Ótima qualidade;4
+115;CUST00115;21/05/25;22/05/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;605;Não;-;3
+116;CUST00116;22/06/25;25/06/25;3;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1869;Sim;Atraso na entrega;2
+117;CUST00117;22/06/25;25/06/25;3;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;840;Não;-;3
+118;CUST00118;26/06/25;30/06/25;4;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2238;Não;Ótima qualidade;5
+119;CUST00119;18/06/25;23/06/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;762;Não;-;3
+120;CUST00120;10/06/25;11/06/25;1;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;350;Não;-;3
+121;CUST00121;24/05/25;26/05/25;2;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;678;Não;-;3
+122;CUST00122;10/06/25;15/06/25;5;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;427;Sim;Cobrança duplicada;1
+123;CUST00123;23/06/25;27/06/25;4;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;285;Não;Ótima qualidade;4
+124;CUST00124;17/06/25;25/06/25;8;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;808;Não;-;3
+125;CUST00125;25/06/25;29/06/25;4;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;511;Não;-;3
+126;CUST00126;13/06/25;15/06/25;2;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2043;Não;-;3
+127;CUST00127;15/05/25;20/05/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;512;Não;-;3
+128;CUST00128;05/06/25;09/06/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;1006;Não;-;3
+129;CUST00129;14/06/25;24/06/25;10;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1465;Não;-;3
+130;CUST00130;15/05/25;19/05/25;4;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;940;Não;-;3
+131;CUST00131;18/06/25;23/06/25;5;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1727;Não;-;3
+132;CUST00132;07/06/25;10/06/25;3;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;549;Não;-;3
+133;CUST00133;05/06/25;07/06/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;Dinheiro;1173;Sim;Atendimento ruim;1
+134;CUST00134;18/05/25;19/05/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;108;Não;-;3
+135;CUST00135;18/06/25;23/06/25;5;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;466;Sim;Embalagem violada;2
+136;CUST00136;25/05/25;29/05/25;4;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1596;Não;-;3
+137;CUST00137;29/06/25;04/07/25;5;Nordeste;Limpeza Doméstica;Esponja Múltipla;PIX;280;Sim;Quantidade incorreta;2
+138;CUST00138;28/06/25;01/07/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;211;Não;-;3
+139;CUST00139;13/06/25;14/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1358;Não;-;3
+140;CUST00140;25/05/25;02/06/25;8;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;655;Não;-;3
+141;CUST00141;13/06/25;14/06/25;1;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;511;Não;-;3
+142;CUST00142;23/06/25;26/06/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;491;Não;-;3
+143;CUST00143;28/06/25;03/07/25;5;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;279;Sim;Produto danificado;1
+144;CUST00144;17/05/25;18/05/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;718;Não;-;3
+145;CUST00145;13/06/25;23/06/25;10;Sul;Higiene Pessoal;Sabonete em Barra;PIX;349;Não;-;3
+146;CUST00146;10/06/25;20/06/25;10;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;531;Não;-;3
+147;CUST00147;04/06/25;06/06/25;2;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2820;Não;-;3
+148;CUST00148;06/06/25;09/06/25;3;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;357;Não;-;3
+149;CUST00149;29/06/25;01/07/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1684;Não;-;3
+150;CUST00150;03/06/25;12/06/25;9;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1633;Não;-;3
+151;CUST00151;30/05/25;31/05/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;533;Não;-;3
+152;CUST00152;28/05/25;31/05/25;3;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;680;Não;-;3
+153;CUST00153;15/06/25;23/06/25;8;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1293;Não;-;3
+154;CUST00154;01/06/25;05/06/25;4;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;317;Não;-;3
+155;CUST00155;24/06/25;04/07/25;10;Norte;Bebidas;Refrigerante Cola 2L;PIX;656;Não;-;3
+156;CUST00156;17/06/25;20/06/25;3;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;241;Não;-;3
+157;CUST00157;31/05/25;05/06/25;5;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Dinheiro;880;Não;-;3
+158;CUST00158;19/06/25;20/06/25;1;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2634;Não;-;3
+159;CUST00159;25/05/25;27/05/25;2;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;168;Não;-;3
+160;CUST00160;24/05/25;25/05/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1561;Sim;Prazo de entrega excedido;2
+161;CUST00161;10/06/25;13/06/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1012;Não;-;3
+162;CUST00162;31/05/25;08/06/25;8;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;544;Não;-;3
+163;CUST00163;02/06/25;08/06/25;6;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;220;Não;-;3
+164;CUST00164;10/06/25;18/06/25;8;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Débito;391;Não;-;3
+165;CUST00165;03/06/25;06/06/25;3;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;402;Não;-;3
+166;CUST00166;25/05/25;01/06/25;7;Norte;Bebidas;Água Mineral 1,5L;PIX;437;Não;-;3
+167;CUST00167;31/05/25;09/06/25;9;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;223;Não;-;3
+168;CUST00168;28/06/25;08/07/25;10;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1084;Não;-;3
+169;CUST00169;30/05/25;04/06/25;5;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1459;Não;-;3
+170;CUST00170;27/06/25;03/07/25;6;Sul;Bebidas;Suco de Laranja 1L;PIX;553;Não;-;3
+171;CUST00171;30/06/25;09/07/25;9;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Débito;491;Sim;Produto diferente do pedido;1
+172;CUST00172;01/06/25;02/06/25;1;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;406;Não;-;3
+173;CUST00173;04/06/25;09/06/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;609;Não;-;3
+174;CUST00174;28/06/25;06/07/25;8;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1819;Não;Atendimento excelente;5
+175;CUST00175;26/05/25;28/05/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;209;Não;-;3
+176;CUST00176;05/06/25;06/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;660;Não;-;3
+177;CUST00177;07/06/25;17/06/25;10;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;609;Não;-;3
+178;CUST00178;28/06/25;03/07/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;564;Sim;Prazo de entrega excedido;2
+179;CUST00179;01/06/25;09/06/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;680;Não;-;3
+180;CUST00180;10/06/25;16/06/25;6;Norte;Bebidas;Água Mineral 1,5L;Dinheiro;393;Não;-;3
+181;CUST00181;07/06/25;11/06/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;692;Não;-;3
+182;CUST00182;21/05/25;30/05/25;9;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;831;Sim;Atendimento ruim;1
+183;CUST00183;22/06/25;26/06/25;4;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1071;Não;-;3
+184;CUST00184;09/06/25;14/06/25;5;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;644;Não;-;3
+185;CUST00185;24/06/25;30/06/25;6;Sul;Bebidas;Suco de Laranja 1L;PIX;804;Não;-;3
+186;CUST00186;17/05/25;23/05/25;6;Sul;Higiene Pessoal;Sabonete em Barra;PIX;336;Sim;Atraso na entrega;2
+187;CUST00187;29/06/25;03/07/25;4;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;183;Não;-;3
+188;CUST00188;13/06/25;16/06/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;636;Não;-;3
+189;CUST00189;10/06/25;20/06/25;10;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;113;Não;-;3
+190;CUST00190;18/06/25;22/06/25;4;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;669;Não;-;3
+191;CUST00191;23/05/25;27/05/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;372;Não;-;3
+192;CUST00192;16/05/25;17/05/25;1;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;919;Não;-;3
+193;CUST00193;17/06/25;24/06/25;7;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;523;Não;-;3
+194;CUST00194;28/06/25;30/06/25;2;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Dinheiro;1603;Não;-;3
+195;CUST00195;22/06/25;24/06/25;2;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1420;Não;-;3
+196;CUST00196;04/06/25;06/06/25;2;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1782;Não;-;3
+197;CUST00197;20/06/25;26/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;293;Não;Compra sem complicações;5
+198;CUST00198;01/06/25;04/06/25;3;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;431;Não;-;3
+199;CUST00199;17/05/25;19/05/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;971;Não;-;3
+200;CUST00200;25/06/25;26/06/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1568;Não;-;3
+201;CUST00201;02/06/25;07/06/25;5;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;257;Não;-;3
+202;CUST00202;19/05/25;28/05/25;9;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;985;Não;-;3
+203;CUST00203;27/05/25;29/05/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;328;Não;-;3
+204;CUST00204;25/06/25;30/06/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1473;Não;-;3
+205;CUST00205;04/06/25;05/06/25;1;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1250;Não;Ótima qualidade;5
+206;CUST00206;15/06/25;17/06/25;2;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;352;Sim;Produto danificado;1
+207;CUST00207;25/05/25;26/05/25;1;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;304;Não;-;3
+208;CUST00208;24/05/25;01/06/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;505;Não;Atendimento excelente;5
+209;CUST00209;30/06/25;10/07/25;10;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;393;Não;Atendimento excelente;4
+210;CUST00210;28/05/25;01/06/25;4;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;320;Não;-;3
+211;CUST00211;18/06/25;19/06/25;1;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1014;Não;-;3
+212;CUST00212;29/06/25;30/06/25;1;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2799;Não;-;3
+213;CUST00213;02/06/25;12/06/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1483;Não;-;3
+214;CUST00214;19/05/25;26/05/25;7;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1103;Não;-;3
+215;CUST00215;04/06/25;08/06/25;4;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;407;Sim;Quantidade incorreta;1
+216;CUST00216;26/06/25;30/06/25;4;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;1005;Não;Atendimento excelente;4
+217;CUST00217;20/05/25;25/05/25;5;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;383;Não;-;3
+218;CUST00218;21/05/25;26/05/25;5;Nordeste;Bebidas;Suco de Laranja 1L;PIX;640;Não;Ótima qualidade;4
+219;CUST00219;28/06/25;01/07/25;3;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;201;Não;-;3
+220;CUST00220;18/06/25;26/06/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3009;Não;Entrega rápida e sem problemas;5
+221;CUST00221;20/05/25;26/05/25;6;Sul;Higiene Pessoal;Shampoo 400ml;PIX;1770;Não;-;3
+222;CUST00222;13/06/25;14/06/25;1;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;690;Não;-;3
+223;CUST00223;26/05/25;31/05/25;5;Nordeste;Higiene Pessoal;Shampoo 400ml;Dinheiro;1130;Não;-;3
+224;CUST00224;21/06/25;28/06/25;7;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Débito;299;Sim;Atraso na entrega;2
+225;CUST00225;09/06/25;11/06/25;2;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;253;Não;-;3
+226;CUST00226;15/06/25;17/06/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;919;Não;-;3
+227;CUST00227;14/06/25;19/06/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1304;Não;-;3
+228;CUST00228;27/05/25;01/06/25;5;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;344;Não;-;3
+229;CUST00229;15/06/25;16/06/25;1;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2022;Não;Produto conforme anunciado;4
+230;CUST00230;03/06/25;13/06/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;107;Não;-;3
+231;CUST00231;26/05/25;30/05/25;4;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1908;Não;Ótima qualidade;5
+232;CUST00232;19/06/25;22/06/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Dinheiro;1143;Não;Compra sem complicações;5
+233;CUST00233;23/06/25;02/07/25;9;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1134;Não;Atendimento excelente;4
+234;CUST00234;18/05/25;28/05/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;172;Não;-;3
+235;CUST00235;03/06/25;06/06/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;215;Sim;Quantidade incorreta;2
+236;CUST00236;19/05/25;26/05/25;7;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;514;Não;-;3
+237;CUST00237;10/06/25;11/06/25;1;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;785;Sim;Atendimento ruim;1
+238;CUST00238;28/05/25;31/05/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;395;Não;-;3
+239;CUST00239;15/06/25;16/06/25;1;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1728;Sim;Produto diferente do pedido;2
+240;CUST00240;27/05/25;06/06/25;10;Norte;Bebidas;Refrigerante Cola 2L;PIX;1190;Não;-;3
+241;CUST00241;26/05/25;28/05/25;2;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;723;Não;-;3
+242;CUST00242;29/05/25;08/06/25;10;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1260;Não;-;3
+243;CUST00243;30/06/25;08/07/25;8;Norte;Bebidas;Água Mineral 1,5L;PIX;444;Não;-;3
+244;CUST00244;06/06/25;15/06/25;9;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1570;Não;-;3
+245;CUST00245;16/05/25;18/05/25;2;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;1110;Sim;Prazo de entrega excedido;1
+246;CUST00246;06/06/25;16/06/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;262;Não;-;3
+247;CUST00247;18/06/25;22/06/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1289;Não;-;3
+248;CUST00248;13/06/25;18/06/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;459;Sim;Cobrança duplicada;2
+249;CUST00249;04/06/25;12/06/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;204;Não;Entrega rápida e sem problemas;4
+250;CUST00250;22/06/25;27/06/25;5;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;171;Não;-;3
+251;CUST00251;10/06/25;11/06/25;1;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;1129;Não;-;3
+252;CUST00252;04/06/25;09/06/25;5;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;613;Não;-;3
+253;CUST00253;01/06/25;05/06/25;4;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2163;Não;Produto conforme anunciado;4
+254;CUST00254;31/05/25;06/06/25;6;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;526;Não;-;3
+255;CUST00255;18/06/25;26/06/25;8;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1668;Não;-;3
+256;CUST00256;12/06/25;18/06/25;6;Norte;Alimentos Básicos;Macarrão Espaguete 500g;PIX;732;Não;-;3
+257;CUST00257;10/06/25;13/06/25;3;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;641;Não;Produto conforme anunciado;5
+258;CUST00258;06/06/25;13/06/25;7;Norte;Higiene Pessoal;Sabonete em Barra;Dinheiro;327;Não;-;3
+259;CUST00259;15/06/25;25/06/25;10;Sul;Bebidas;Suco de Laranja 1L;Cartão Débito;788;Sim;Produto danificado;1
+260;CUST00260;07/06/25;12/06/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;294;Não;-;3
+261;CUST00261;30/05/25;06/06/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;646;Não;-;3
+262;CUST00262;10/06/25;13/06/25;3;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2072;Sim;Produto diferente do pedido;1
+263;CUST00263;18/06/25;24/06/25;6;Sul;Higiene Pessoal;Sabonete em Barra;PIX;267;Não;-;3
+264;CUST00264;10/06/25;13/06/25;3;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;516;Sim;Atraso na entrega;1
+265;CUST00265;17/06/25;23/06/25;6;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2021;Sim;Produto diferente do pedido;1
+266;CUST00266;20/05/25;30/05/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;171;Não;-;3
+267;CUST00267;01/06/25;08/06/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;355;Não;-;3
+268;CUST00268;10/06/25;13/06/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;612;Não;-;3
+269;CUST00269;17/06/25;18/06/25;1;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;660;Não;-;3
+270;CUST00270;28/06/25;30/06/25;2;Sudeste;Higiene Pessoal;Shampoo 400ml;PIX;1182;Não;-;3
+271;CUST00271;20/05/25;27/05/25;7;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;615;Não;-;3
+272;CUST00272;30/05/25;02/06/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1612;Sim;Embalagem violada;2
+273;CUST00273;15/06/25;25/06/25;10;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;828;Não;-;3
+274;CUST00274;29/05/25;01/06/25;3;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;317;Não;-;3
+275;CUST00275;08/06/25;18/06/25;10;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;530;Não;-;3
+276;CUST00276;30/05/25;03/06/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;782;Não;-;3
+277;CUST00277;26/06/25;04/07/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2105;Não;-;3
+278;CUST00278;26/06/25;29/06/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;979;Sim;Cobrança duplicada;1
+279;CUST00279;25/06/25;30/06/25;5;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1416;Não;Entrega rápida e sem problemas;4
+280;CUST00280;17/06/25;20/06/25;3;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;497;Sim;Cobrança duplicada;1
+281;CUST00281;28/05/25;02/06/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;425;Não;-;3
+282;CUST00282;02/06/25;06/06/25;4;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;555;Não;-;3
+283;CUST00283;28/05/25;03/06/25;6;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1928;Não;-;3
+284;CUST00284;04/06/25;06/06/25;2;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;225;Não;-;3
+285;CUST00285;21/06/25;26/06/25;5;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;683;Não;-;3
+286;CUST00286;30/05/25;02/06/25;3;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;319;Não;-;3
+287;CUST00287;29/05/25;03/06/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Dinheiro;1727;Não;-;3
+288;CUST00288;21/05/25;26/05/25;5;Norte;Bebidas;Refrigerante Cola 2L;PIX;848;Sim;Produto diferente do pedido;2
+289;CUST00289;02/06/25;05/06/25;3;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1708;Não;-;3
+290;CUST00290;17/05/25;20/05/25;3;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;826;Não;-;3
+291;CUST00291;27/06/25;01/07/25;4;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1393;Não;-;3
+292;CUST00292;26/06/25;03/07/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;671;Sim;Atraso na entrega;2
+293;CUST00293;23/06/25;24/06/25;1;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;203;Sim;Atraso na entrega;2
+294;CUST00294;28/06/25;30/06/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;132;Não;Entrega rápida e sem problemas;5
+295;CUST00295;21/06/25;23/06/25;2;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1032;Não;-;3
+296;CUST00296;20/06/25;21/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1693;Não;-;3
+297;CUST00297;04/06/25;05/06/25;1;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1239;Não;-;3
+298;CUST00298;22/05/25;27/05/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;441;Não;-;3
+299;CUST00299;16/05/25;17/05/25;1;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;378;Não;-;3
+300;CUST00300;06/06/25;11/06/25;5;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;326;Não;-;3
+301;CUST00301;21/05/25;22/05/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;938;Não;-;3
+302;CUST00302;24/05/25;27/05/25;3;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1945;Não;-;3
+303;CUST00303;27/05/25;04/06/25;8;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1151;Não;-;3
+304;CUST00304;25/05/25;30/05/25;5;Sudeste;Limpeza Doméstica;Esponja Múltipla;Dinheiro;116;Não;-;3
+305;CUST00305;13/06/25;22/06/25;9;Sul;Higiene Pessoal;Shampoo 400ml;PIX;1360;Não;-;3
+306;CUST00306;22/06/25;27/06/25;5;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;480;Não;Atendimento excelente;5
+307;CUST00307;30/06/25;05/07/25;5;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;824;Não;-;3
+308;CUST00308;17/05/25;27/05/25;10;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1365;Não;-;3
+309;CUST00309;16/06/25;20/06/25;4;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1010;Não;-;3
+310;CUST00310;23/05/25;27/05/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Dinheiro;1144;Não;-;3
+311;CUST00311;12/06/25;18/06/25;6;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1351;Não;Entrega rápida e sem problemas;4
+312;CUST00312;17/06/25;19/06/25;2;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1373;Não;Compra sem complicações;5
+313;CUST00313;23/06/25;01/07/25;8;Sul;Limpeza Doméstica;Sabão em Pó 1kg;PIX;986;Sim;Quantidade incorreta;2
+314;CUST00314;17/05/25;26/05/25;9;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;620;Sim;Produto diferente do pedido;1
+315;CUST00315;06/06/25;14/06/25;8;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Débito;912;Não;-;3
+316;CUST00316;05/06/25;10/06/25;5;Sudeste;Bebidas;Refrigerante Cola 2L;PIX;1157;Não;Ótima qualidade;4
+317;CUST00317;14/06/25;17/06/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;725;Não;-;3
+318;CUST00318;10/06/25;15/06/25;5;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1369;Não;-;3
+319;CUST00319;04/06/25;08/06/25;4;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;573;Sim;Prazo de entrega excedido;1
+320;CUST00320;14/06/25;16/06/25;2;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;512;Não;-;3
+321;CUST00321;23/05/25;26/05/25;3;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;221;Sim;Cobrança duplicada;2
+322;CUST00322;10/06/25;14/06/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1795;Não;-;3
+323;CUST00323;29/06/25;03/07/25;4;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Débito;401;Não;-;3
+324;CUST00324;28/05/25;02/06/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;969;Sim;Embalagem violada;1
+325;CUST00325;21/06/25;01/07/25;10;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;690;Sim;Prazo de entrega excedido;1
+326;CUST00326;03/06/25;07/06/25;4;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;899;Não;-;3
+327;CUST00327;13/06/25;20/06/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;444;Não;-;3
+328;CUST00328;24/06/25;26/06/25;2;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1393;Não;Compra sem complicações;5
+329;CUST00329;29/06/25;03/07/25;4;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1870;Sim;Quantidade incorreta;2
+330;CUST00330;27/06/25;29/06/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;248;Não;-;3
+331;CUST00331;27/05/25;01/06/25;5;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;491;Não;Compra sem complicações;5
+332;CUST00332;30/05/25;09/06/25;10;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;701;Não;-;3
+333;CUST00333;24/05/25;02/06/25;9;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;1150;Sim;Produto danificado;1
+334;CUST00334;07/06/25;08/06/25;1;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Débito;786;Não;-;3
+335;CUST00335;21/05/25;23/05/25;2;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1148;Não;-;3
+336;CUST00336;27/05/25;28/05/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;602;Não;-;3
+337;CUST00337;30/05/25;09/06/25;10;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1736;Não;-;3
+338;CUST00338;22/06/25;25/06/25;3;Sudeste;Bebidas;Suco de Laranja 1L;PIX;798;Não;-;3
+339;CUST00339;29/05/25;31/05/25;2;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;953;Sim;Produto danificado;1
+340;CUST00340;09/06/25;16/06/25;7;Norte;Bebidas;Refrigerante Cola 2L;PIX;907;Não;-;3
+341;CUST00341;03/06/25;11/06/25;8;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;353;Não;-;3
+342;CUST00342;21/05/25;25/05/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;277;Não;-;3
+343;CUST00343;19/05/25;25/05/25;6;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1095;Não;-;3
+344;CUST00344;25/05/25;28/05/25;3;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;605;Sim;Produto danificado;2
+345;CUST00345;04/06/25;09/06/25;5;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;567;Não;-;3
+346;CUST00346;23/05/25;01/06/25;9;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;742;Não;-;3
+347;CUST00347;09/06/25;10/06/25;1;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;112;Sim;Atraso na entrega;2
+348;CUST00348;23/06/25;29/06/25;6;Sul;Higiene Pessoal;Creme Dental 90g;PIX;264;Não;-;3
+349;CUST00349;27/06/25;04/07/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;585;Não;-;3
+350;CUST00350;17/06/25;22/06/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;966;Não;-;3
+351;CUST00351;27/06/25;05/07/25;8;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;346;Não;Ótima qualidade;4
+352;CUST00352;29/06/25;30/06/25;1;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2163;Sim;Quantidade incorreta;2
+353;CUST00353;17/06/25;21/06/25;4;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1363;Não;-;3
+354;CUST00354;26/05/25;31/05/25;5;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;513;Não;-;3
+355;CUST00355;18/06/25;20/06/25;2;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1132;Sim;Produto diferente do pedido;1
+356;CUST00356;30/06/25;08/07/25;8;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;638;Não;-;3
+357;CUST00357;27/05/25;01/06/25;5;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;424;Não;Atendimento excelente;5
+358;CUST00358;16/05/25;24/05/25;8;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Dinheiro;765;Sim;Embalagem violada;2
+359;CUST00359;08/06/25;09/06/25;1;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;482;Não;-;3
+360;CUST00360;17/05/25;22/05/25;5;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;561;Não;-;3
+361;CUST00361;12/06/25;19/06/25;7;Sul;Bebidas;Suco de Laranja 1L;PIX;837;Não;-;3
+362;CUST00362;01/06/25;11/06/25;10;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;616;Não;Produto conforme anunciado;5
+363;CUST00363;10/06/25;11/06/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1871;Não;-;3
+364;CUST00364;14/06/25;18/06/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;260;Não;-;3
+365;CUST00365;08/06/25;10/06/25;2;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;551;Não;-;3
+366;CUST00366;17/05/25;21/05/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;673;Não;-;3
+367;CUST00367;29/05/25;06/06/25;8;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;773;Não;-;3
+368;CUST00368;10/06/25;13/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;249;Não;-;3
+369;CUST00369;03/06/25;05/06/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;482;Sim;Atraso na entrega;1
+370;CUST00370;28/05/25;06/06/25;9;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;910;Não;-;3
+371;CUST00371;31/05/25;04/06/25;4;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;430;Não;-;3
+372;CUST00372;14/06/25;20/06/25;6;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2073;Não;-;3
+373;CUST00373;06/06/25;07/06/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;352;Sim;Embalagem violada;2
+374;CUST00374;19/05/25;26/05/25;7;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;701;Sim;Produto danificado;2
+375;CUST00375;23/06/25;02/07/25;9;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2688;Não;-;3
+376;CUST00376;19/06/25;26/06/25;7;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;201;Sim;Cobrança duplicada;2
+377;CUST00377;30/05/25;02/06/25;3;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;264;Sim;Produto diferente do pedido;1
+378;CUST00378;08/06/25;18/06/25;10;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;189;Não;-;3
+379;CUST00379;18/05/25;27/05/25;9;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;167;Não;-;3
+380;CUST00380;20/06/25;26/06/25;6;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1066;Não;-;3
+381;CUST00381;23/05/25;26/05/25;3;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1536;Não;-;3
+382;CUST00382;09/06/25;19/06/25;10;Sul;Limpeza Doméstica;Desinfetante 1L;PIX;681;Não;-;3
+383;CUST00383;13/06/25;22/06/25;9;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1638;Não;-;3
+384;CUST00384;24/05/25;02/06/25;9;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;699;Sim;Produto danificado;2
+385;CUST00385;15/06/25;17/06/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;795;Não;-;3
+386;CUST00386;26/05/25;29/05/25;3;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;488;Sim;Atraso na entrega;2
+387;CUST00387;28/06/25;05/07/25;7;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;542;Não;-;3
+388;CUST00388;26/05/25;28/05/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1442;Não;-;3
+389;CUST00389;21/05/25;26/05/25;5;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;903;Sim;Cobrança duplicada;1
+390;CUST00390;16/06/25;24/06/25;8;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;198;Não;-;3
+391;CUST00391;17/05/25;26/05/25;9;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1377;Não;-;3
+392;CUST00392;22/06/25;27/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;855;Não;-;3
+393;CUST00393;28/05/25;29/05/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;677;Não;-;3
+394;CUST00394;04/06/25;11/06/25;7;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1212;Não;-;3
+395;CUST00395;21/06/25;30/06/25;9;Sul;Limpeza Doméstica;Desinfetante 1L;PIX;331;Não;-;3
+396;CUST00396;15/05/25;18/05/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;861;Não;-;3
+397;CUST00397;23/05/25;29/05/25;6;Norte;Bebidas;Água Mineral 1,5L;Cartão Débito;421;Não;-;3
+398;CUST00398;17/06/25;22/06/25;5;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;741;Sim;Produto danificado;1
+399;CUST00399;13/06/25;19/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;PIX;186;Sim;Prazo de entrega excedido;2
+400;CUST00400;29/05/25;31/05/25;2;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;402;Não;-;3
+401;CUST00401;30/06/25;01/07/25;1;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1627;Não;-;3
+402;CUST00402;25/05/25;31/05/25;6;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1458;Não;-;3
+403;CUST00403;27/05/25;28/05/25;1;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;528;Não;-;3
+404;CUST00404;30/05/25;02/06/25;3;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;230;Não;-;3
+405;CUST00405;30/06/25;05/07/25;5;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1082;Não;-;3
+406;CUST00406;18/05/25;25/05/25;7;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1416;Sim;Cobrança duplicada;1
+407;CUST00407;15/06/25;17/06/25;2;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;956;Não;-;3
+408;CUST00408;29/06/25;02/07/25;3;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;481;Não;-;3
+409;CUST00409;10/06/25;12/06/25;2;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;797;Sim;Atraso na entrega;1
+410;CUST00410;04/06/25;09/06/25;5;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;708;Não;-;3
+411;CUST00411;23/05/25;29/05/25;6;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;958;Não;-;3
+412;CUST00412;20/06/25;21/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;733;Não;-;3
+413;CUST00413;20/05/25;24/05/25;4;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;475;Não;-;3
+414;CUST00414;12/06/25;21/06/25;9;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1455;Não;-;3
+415;CUST00415;08/06/25;16/06/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3022;Sim;Atraso na entrega;2
+416;CUST00416;26/06/25;27/06/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;223;Não;-;3
+417;CUST00417;10/06/25;13/06/25;3;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;760;Não;-;3
+418;CUST00418;11/06/25;16/06/25;5;Sul;Bebidas;Suco de Laranja 1L;Cartão Débito;722;Sim;Quantidade incorreta;1
+419;CUST00419;23/05/25;28/05/25;5;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;252;Não;-;3
+420;CUST00420;09/06/25;13/06/25;4;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1021;Não;-;3
+421;CUST00421;24/06/25;01/07/25;7;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;398;Não;-;3
+422;CUST00422;25/06/25;29/06/25;4;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;299;Não;-;3
+423;CUST00423;25/05/25;04/06/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;236;Não;-;3
+424;CUST00424;16/05/25;25/05/25;9;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;334;Não;-;3
+425;CUST00425;29/06/25;04/07/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1661;Não;-;3
+426;CUST00426;28/06/25;03/07/25;5;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1177;Não;-;3
+427;CUST00427;09/06/25;15/06/25;6;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1813;Não;-;3
+428;CUST00428;30/05/25;31/05/25;1;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Dinheiro;2120;Não;Compra sem complicações;5
+429;CUST00429;08/06/25;11/06/25;3;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1213;Não;-;3
+430;CUST00430;11/06/25;18/06/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;617;Não;-;3
+431;CUST00431;29/05/25;03/06/25;5;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;374;Não;Compra sem complicações;4
+432;CUST00432;14/06/25;20/06/25;6;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;817;Não;Compra sem complicações;5
+433;CUST00433;01/06/25;02/06/25;1;Centro-Oeste;Bebidas;Água Mineral 1,5L;PIX;330;Não;-;3
+434;CUST00434;01/06/25;03/06/25;2;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;646;Não;-;3
+435;CUST00435;30/05/25;06/06/25;7;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;629;Não;-;3
+436;CUST00436;17/06/25;22/06/25;5;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1854;Não;-;3
+437;CUST00437;27/05/25;01/06/25;5;Norte;Bebidas;Refrigerante Cola 2L;PIX;865;Não;-;3
+438;CUST00438;07/06/25;11/06/25;4;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1199;Não;-;3
+439;CUST00439;21/05/25;23/05/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1691;Não;-;3
+440;CUST00440;21/05/25;25/05/25;4;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1048;Não;-;3
+441;CUST00441;01/06/25;08/06/25;7;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;561;Sim;Prazo de entrega excedido;1
+442;CUST00442;07/06/25;08/06/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;619;Não;-;3
+443;CUST00443;22/06/25;27/06/25;5;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;645;Não;-;3
+444;CUST00444;29/05/25;03/06/25;5;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1483;Não;Atendimento excelente;4
+445;CUST00445;30/05/25;02/06/25;3;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;826;Não;-;3
+446;CUST00446;26/06/25;05/07/25;9;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;938;Não;-;3
+447;CUST00447;26/05/25;03/06/25;8;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;248;Não;-;3
+448;CUST00448;22/06/25;25/06/25;3;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1880;Sim;Embalagem violada;1
+449;CUST00449;17/05/25;22/05/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;812;Não;-;3
+450;CUST00450;05/06/25;10/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;717;Não;-;3
+451;CUST00451;08/06/25;09/06/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1017;Sim;Produto diferente do pedido;2
+452;CUST00452;29/06/25;04/07/25;5;Norte;Higiene Pessoal;Creme Dental 90g;PIX;351;Não;-;3
+453;CUST00453;16/05/25;23/05/25;7;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1681;Não;-;3
+454;CUST00454;25/05/25;28/05/25;3;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;843;Sim;Embalagem violada;2
+455;CUST00455;23/05/25;26/05/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2099;Não;Entrega rápida e sem problemas;4
+456;CUST00456;27/05/25;02/06/25;6;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;833;Sim;Cobrança duplicada;1
+457;CUST00457;01/06/25;03/06/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;217;Sim;Quantidade incorreta;1
+458;CUST00458;24/05/25;03/06/25;10;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;451;Não;-;3
+459;CUST00459;23/05/25;31/05/25;8;Sul;Alimentos Básicos;Feijão Carioca (1kg);PIX;1122;Sim;Atendimento ruim;1
+460;CUST00460;13/06/25;15/06/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;288;Não;-;3
+461;CUST00461;05/06/25;12/06/25;7;Sul;Alimentos Básicos;Feijão Carioca (1kg);PIX;621;Não;-;3
+462;CUST00462;03/06/25;08/06/25;5;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;883;Não;Produto conforme anunciado;5
+463;CUST00463;04/06/25;13/06/25;9;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;847;Não;-;3
+464;CUST00464;20/05/25;27/05/25;7;Norte;Bebidas;Água Mineral 1,5L;PIX;398;Sim;Prazo de entrega excedido;1
+465;CUST00465;24/06/25;26/06/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;925;Não;-;3
+466;CUST00466;07/06/25;12/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;614;Não;-;3
+467;CUST00467;07/06/25;09/06/25;2;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;162;Não;-;3
+468;CUST00468;10/06/25;16/06/25;6;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;150;Não;-;3
+469;CUST00469;20/05/25;26/05/25;6;Sul;Bebidas;Suco de Laranja 1L;PIX;871;Não;-;3
+470;CUST00470;11/06/25;14/06/25;3;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1860;Não;-;3
+471;CUST00471;19/06/25;20/06/25;1;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Débito;841;Não;-;3
+472;CUST00472;22/05/25;25/05/25;3;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;717;Não;-;3
+473;CUST00473;05/06/25;07/06/25;2;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;262;Não;-;3
+474;CUST00474;30/06/25;02/07/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;592;Não;-;3
+475;CUST00475;29/06/25;03/07/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;582;Não;Atendimento excelente;5
+476;CUST00476;26/05/25;28/05/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1056;Não;-;3
+477;CUST00477;31/05/25;02/06/25;2;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;768;Não;-;3
+478;CUST00478;22/06/25;26/06/25;4;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;321;Não;Produto conforme anunciado;4
+479;CUST00479;28/05/25;31/05/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;953;Sim;Prazo de entrega excedido;2
+480;CUST00480;18/05/25;20/05/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;245;Não;-;3
+481;CUST00481;31/05/25;03/06/25;3;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;558;Não;Compra sem complicações;5
+482;CUST00482;27/06/25;05/07/25;8;Sul;Higiene Pessoal;Papel Higiênico c/12;PIX;2132;Não;-;3
+483;CUST00483;01/06/25;02/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1273;Não;-;3
+484;CUST00484;12/06/25;13/06/25;1;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;988;Não;-;3
+485;CUST00485;22/06/25;27/06/25;5;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;560;Sim;Cobrança duplicada;2
+486;CUST00486;29/06/25;01/07/25;2;Nordeste;Limpeza Doméstica;Desinfetante 1L;PIX;391;Não;-;3
+487;CUST00487;12/06/25;13/06/25;1;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;230;Não;-;3
+488;CUST00488;19/06/25;24/06/25;5;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;486;Sim;Produto danificado;2
+489;CUST00489;16/06/25;20/06/25;4;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;368;Não;-;3
+490;CUST00490;25/06/25;26/06/25;1;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;731;Sim;Atraso na entrega;2
+491;CUST00491;28/06/25;29/06/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1751;Não;-;3
+492;CUST00492;19/05/25;21/05/25;2;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1096;Não;-;3
+493;CUST00493;12/06/25;15/06/25;3;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;732;Não;-;3
+494;CUST00494;30/06/25;04/07/25;4;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;278;Não;Ótima qualidade;4
+495;CUST00495;24/05/25;29/05/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;798;Não;-;3
+496;CUST00496;10/06/25;17/06/25;7;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1993;Não;-;3
+497;CUST00497;28/06/25;08/07/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;279;Não;-;3
+498;CUST00498;17/05/25;24/05/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;329;Sim;Atendimento ruim;1
+499;CUST00499;29/06/25;04/07/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1470;Não;-;3
+500;CUST00500;22/05/25;23/05/25;1;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;328;Não;-;3
+501;CUST00501;11/06/25;16/06/25;5;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1500;Não;-;3
+502;CUST00502;17/06/25;19/06/25;2;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Débito;558;Não;-;3
+503;CUST00503;12/06/25;14/06/25;2;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;756;Não;-;3
+504;CUST00504;22/06/25;28/06/25;6;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Dinheiro;694;Sim;Quantidade incorreta;1
+505;CUST00505;25/06/25;26/06/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;548;Não;-;3
+506;CUST00506;12/06/25;21/06/25;9;Norte;Alimentos Básicos;Macarrão Espaguete 500g;PIX;616;Não;-;3
+507;CUST00507;07/06/25;12/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;880;Não;-;3
+508;CUST00508;17/05/25;18/05/25;1;Nordeste;Higiene Pessoal;Creme Dental 90g;PIX;285;Não;Compra sem complicações;4
+509;CUST00509;10/06/25;15/06/25;5;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1379;Não;-;3
+510;CUST00510;26/05/25;28/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;319;Não;-;3
+511;CUST00511;03/06/25;05/06/25;2;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;651;Sim;Quantidade incorreta;2
+512;CUST00512;26/05/25;31/05/25;5;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;628;Sim;Cobrança duplicada;1
+513;CUST00513;09/06/25;13/06/25;4;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;297;Não;-;3
+514;CUST00514;16/05/25;17/05/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1301;Sim;Prazo de entrega excedido;2
+515;CUST00515;10/06/25;18/06/25;8;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;718;Não;-;3
+516;CUST00516;29/06/25;07/07/25;8;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1484;Não;-;3
+517;CUST00517;11/06/25;12/06/25;1;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;552;Sim;Prazo de entrega excedido;2
+518;CUST00518;05/06/25;10/06/25;5;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1434;Não;-;3
+519;CUST00519;21/06/25;24/06/25;3;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;629;Não;-;3
+520;CUST00520;09/06/25;14/06/25;5;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Dinheiro;1988;Não;-;3
+521;CUST00521;08/06/25;10/06/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;614;Não;-;3
+522;CUST00522;15/06/25;20/06/25;5;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;294;Não;-;3
+523;CUST00523;23/05/25;27/05/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;671;Não;Ótima qualidade;4
+524;CUST00524;25/05/25;01/06/25;7;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;1161;Não;-;3
+525;CUST00525;29/05/25;03/06/25;5;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;350;Sim;Atraso na entrega;2
+526;CUST00526;29/06/25;08/07/25;9;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;445;Não;-;3
+527;CUST00527;20/06/25;24/06/25;4;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1107;Não;-;3
+528;CUST00528;20/05/25;27/05/25;7;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;294;Não;-;3
+529;CUST00529;20/06/25;30/06/25;10;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;298;Não;-;3
+530;CUST00530;06/06/25;09/06/25;3;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;446;Não;-;3
+531;CUST00531;29/05/25;06/06/25;8;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1093;Não;-;3
+532;CUST00532;28/06/25;02/07/25;4;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1710;Sim;Embalagem violada;1
+533;CUST00533;10/06/25;18/06/25;8;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2688;Não;-;3
+534;CUST00534;26/06/25;04/07/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2306;Não;-;3
+535;CUST00535;25/05/25;29/05/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;575;Sim;Prazo de entrega excedido;2
+536;CUST00536;26/05/25;29/05/25;3;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1472;Não;Entrega rápida e sem problemas;5
+537;CUST00537;16/06/25;17/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1696;Não;-;3
+538;CUST00538;23/06/25;03/07/25;10;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;1200;Não;-;3
+539;CUST00539;23/06/25;30/06/25;7;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;213;Não;Entrega rápida e sem problemas;4
+540;CUST00540;05/06/25;07/06/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;723;Não;Atendimento excelente;5
+541;CUST00541;25/06/25;27/06/25;2;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;427;Sim;Quantidade incorreta;1
+542;CUST00542;20/06/25;21/06/25;1;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;PIX;533;Sim;Embalagem violada;1
+543;CUST00543;18/06/25;22/06/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;270;Não;-;3
+544;CUST00544;19/06/25;22/06/25;3;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;492;Não;-;3
+545;CUST00545;21/05/25;26/05/25;5;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;960;Sim;Atraso na entrega;2
+546;CUST00546;17/05/25;20/05/25;3;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1856;Não;-;3
+547;CUST00547;23/06/25;27/06/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Dinheiro;1768;Sim;Quantidade incorreta;1
+548;CUST00548;10/06/25;11/06/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;755;Não;-;3
+549;CUST00549;08/06/25;09/06/25;1;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;631;Não;-;3
+550;CUST00550;27/06/25;02/07/25;5;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1986;Não;-;3
+551;CUST00551;07/06/25;11/06/25;4;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;579;Não;-;3
+552;CUST00552;31/05/25;08/06/25;8;Sul;Limpeza Doméstica;Desinfetante 1L;PIX;498;Sim;Produto diferente do pedido;1
+553;CUST00553;30/06/25;09/07/25;9;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;799;Não;-;3
+554;CUST00554;29/06/25;03/07/25;4;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Dinheiro;1046;Não;-;3
+555;CUST00555;02/06/25;05/06/25;3;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;413;Sim;Atendimento ruim;1
+556;CUST00556;30/06/25;09/07/25;9;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;2168;Não;-;3
+557;CUST00557;17/05/25;25/05/25;8;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;293;Não;-;3
+558;CUST00558;23/05/25;29/05/25;6;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;248;Sim;Embalagem violada;2
+559;CUST00559;28/05/25;02/06/25;5;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1411;Não;-;3
+560;CUST00560;21/05/25;31/05/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1377;Não;-;3
+561;CUST00561;28/05/25;29/05/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1674;Não;-;3
+562;CUST00562;22/05/25;27/05/25;5;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;746;Não;-;3
+563;CUST00563;30/05/25;31/05/25;1;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;805;Não;-;3
+564;CUST00564;23/06/25;03/07/25;10;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;1157;Não;-;3
+565;CUST00565;25/05/25;02/06/25;8;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;409;Não;-;3
+566;CUST00566;22/06/25;23/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;716;Não;-;3
+567;CUST00567;15/05/25;20/05/25;5;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;305;Não;-;3
+568;CUST00568;18/06/25;19/06/25;1;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;517;Sim;Produto danificado;1
+569;CUST00569;26/05/25;27/05/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;905;Sim;Cobrança duplicada;1
+570;CUST00570;16/06/25;25/06/25;9;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1847;Não;Atendimento excelente;4
+571;CUST00571;08/06/25;13/06/25;5;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;938;Sim;Atraso na entrega;1
+572;CUST00572;16/06/25;21/06/25;5;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;369;Não;-;3
+573;CUST00573;17/05/25;20/05/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;692;Sim;Quantidade incorreta;2
+574;CUST00574;30/06/25;08/07/25;8;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;624;Não;-;3
+575;CUST00575;05/06/25;07/06/25;2;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1751;Não;-;3
+576;CUST00576;20/06/25;26/06/25;6;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1092;Não;-;3
+577;CUST00577;19/05/25;20/05/25;1;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1584;Não;-;3
+578;CUST00578;17/06/25;24/06/25;7;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1090;Não;-;3
+579;CUST00579;03/06/25;06/06/25;3;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3259;Não;-;3
+580;CUST00580;29/05/25;02/06/25;4;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;381;Sim;Cobrança duplicada;1
+581;CUST00581;25/06/25;01/07/25;6;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1044;Não;-;3
+582;CUST00582;15/06/25;24/06/25;9;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;374;Não;-;3
+583;CUST00583;04/06/25;09/06/25;5;Sudeste;Bebidas;Refrigerante Cola 2L;PIX;1033;Sim;Atendimento ruim;1
+584;CUST00584;30/06/25;08/07/25;8;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;315;Não;-;3
+585;CUST00585;26/06/25;27/06/25;1;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;825;Não;-;3
+586;CUST00586;22/06/25;24/06/25;2;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;212;Não;-;3
+587;CUST00587;06/06/25;08/06/25;2;Nordeste;Limpeza Doméstica;Desinfetante 1L;PIX;376;Sim;Prazo de entrega excedido;1
+588;CUST00588;21/06/25;26/06/25;5;Norte;Limpeza Doméstica;Desinfetante 1L;Dinheiro;585;Sim;Embalagem violada;2
+589;CUST00589;13/06/25;23/06/25;10;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;1012;Não;-;3
+590;CUST00590;20/06/25;25/06/25;5;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;636;Não;-;3
+591;CUST00591;28/06/25;03/07/25;5;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;189;Não;-;3
+592;CUST00592;19/06/25;26/06/25;7;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;757;Sim;Embalagem violada;1
+593;CUST00593;24/05/25;02/06/25;9;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;217;Não;-;3
+594;CUST00594;01/06/25;07/06/25;6;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;263;Sim;Atraso na entrega;2
+595;CUST00595;15/05/25;23/05/25;8;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;782;Não;-;3
+596;CUST00596;21/05/25;26/05/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;435;Não;-;3
+597;CUST00597;25/05/25;27/05/25;2;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2186;Sim;Cobrança duplicada;2
+598;CUST00598;22/06/25;28/06/25;6;Sul;Alimentos Básicos;Feijão Carioca (1kg);Dinheiro;1024;Não;-;3
+599;CUST00599;26/06/25;06/07/25;10;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;500;Sim;Cobrança duplicada;2
+600;CUST00600;12/06/25;13/06/25;1;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;583;Não;-;3
+601;CUST00601;25/06/25;03/07/25;8;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;707;Não;Atendimento excelente;4
+602;CUST00602;29/05/25;30/05/25;1;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;670;Não;Produto conforme anunciado;5
+603;CUST00603;29/05/25;01/06/25;3;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;305;Não;-;3
+604;CUST00604;21/06/25;27/06/25;6;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Débito;275;Sim;Atraso na entrega;1
+605;CUST00605;27/05/25;03/06/25;7;Norte;Alimentos Básicos;Macarrão Espaguete 500g;PIX;756;Sim;Produto diferente do pedido;1
+606;CUST00606;27/05/25;31/05/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1483;Não;-;3
+607;CUST00607;21/05/25;26/05/25;5;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;449;Sim;Prazo de entrega excedido;1
+608;CUST00608;22/06/25;27/06/25;5;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;816;Sim;Quantidade incorreta;1
+609;CUST00609;31/05/25;10/06/25;10;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;978;Não;-;3
+610;CUST00610;30/05/25;09/06/25;10;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;724;Não;Entrega rápida e sem problemas;5
+611;CUST00611;15/05/25;23/05/25;8;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;748;Não;-;3
+612;CUST00612;26/06/25;30/06/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;PIX;333;Não;Produto conforme anunciado;4
+613;CUST00613;17/05/25;20/05/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;409;Não;-;3
+614;CUST00614;05/06/25;08/06/25;3;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;664;Não;-;3
+615;CUST00615;03/06/25;04/06/25;1;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;429;Não;-;3
+616;CUST00616;23/05/25;29/05/25;6;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1318;Não;-;3
+617;CUST00617;09/06/25;14/06/25;5;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Dinheiro;969;Sim;Embalagem violada;1
+618;CUST00618;22/05/25;30/05/25;8;Sul;Higiene Pessoal;Sabonete em Barra;PIX;216;Sim;Prazo de entrega excedido;1
+619;CUST00619;29/05/25;01/06/25;3;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;668;Não;-;3
+620;CUST00620;17/05/25;18/05/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1056;Não;-;3
+621;CUST00621;04/06/25;07/06/25;3;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;591;Não;-;3
+622;CUST00622;25/05/25;30/05/25;5;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;477;Sim;Quantidade incorreta;1
+623;CUST00623;21/06/25;26/06/25;5;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;816;Não;Atendimento excelente;5
+624;CUST00624;18/06/25;21/06/25;3;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2436;Não;-;3
+625;CUST00625;15/05/25;22/05/25;7;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;376;Não;-;3
+626;CUST00626;05/06/25;07/06/25;2;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Débito;424;Não;-;3
+627;CUST00627;13/06/25;20/06/25;7;Sul;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1307;Não;-;3
+628;CUST00628;15/06/25;24/06/25;9;Norte;Bebidas;Refrigerante Cola 2L;PIX;735;Não;-;3
+629;CUST00629;11/06/25;18/06/25;7;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;221;Não;-;3
+630;CUST00630;28/06/25;04/07/25;6;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;473;Não;Atendimento excelente;5
+631;CUST00631;07/06/25;12/06/25;5;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;733;Não;Atendimento excelente;4
+632;CUST00632;15/06/25;20/06/25;5;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1387;Não;-;3
+633;CUST00633;19/05/25;20/05/25;1;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1511;Sim;Produto danificado;2
+634;CUST00634;22/06/25;01/07/25;9;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1165;Não;-;3
+635;CUST00635;08/06/25;11/06/25;3;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;928;Sim;Atendimento ruim;2
+636;CUST00636;26/05/25;31/05/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;627;Sim;Quantidade incorreta;2
+637;CUST00637;05/06/25;11/06/25;6;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;591;Não;Atendimento excelente;4
+638;CUST00638;26/05/25;30/05/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1709;Não;-;3
+639;CUST00639;28/06/25;01/07/25;3;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;222;Não;Entrega rápida e sem problemas;4
+640;CUST00640;18/06/25;19/06/25;1;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;247;Não;-;3
+641;CUST00641;23/05/25;26/05/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1072;Não;-;3
+642;CUST00642;24/05/25;31/05/25;7;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;630;Não;Atendimento excelente;5
+643;CUST00643;12/06/25;17/06/25;5;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1578;Não;Atendimento excelente;4
+644;CUST00644;25/06/25;27/06/25;2;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;764;Sim;Produto diferente do pedido;2
+645;CUST00645;18/05/25;23/05/25;5;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3316;Sim;Prazo de entrega excedido;2
+646;CUST00646;30/06/25;07/07/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;686;Não;-;3
+647;CUST00647;18/06/25;24/06/25;6;Sul;Higiene Pessoal;Shampoo 400ml;PIX;1038;Não;-;3
+648;CUST00648;19/05/25;26/05/25;7;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1876;Sim;Prazo de entrega excedido;2
+649;CUST00649;15/06/25;22/06/25;7;Norte;Bebidas;Água Mineral 1,5L;PIX;203;Sim;Produto diferente do pedido;2
+650;CUST00650;13/06/25;16/06/25;3;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1463;Não;-;3
+651;CUST00651;20/06/25;21/06/25;1;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;596;Não;Atendimento excelente;5
+652;CUST00652;02/06/25;07/06/25;5;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;277;Não;-;3
+653;CUST00653;06/06/25;10/06/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;1121;Não;-;3
+654;CUST00654;28/05/25;06/06/25;9;Norte;Bebidas;Água Mineral 1,5L;Dinheiro;408;Não;-;3
+655;CUST00655;03/06/25;04/06/25;1;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;774;Não;-;3
+656;CUST00656;15/06/25;19/06/25;4;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1007;Não;-;3
+657;CUST00657;28/05/25;02/06/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;569;Sim;Atendimento ruim;2
+658;CUST00658;12/06/25;21/06/25;9;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;257;Não;-;3
+659;CUST00659;17/06/25;26/06/25;9;Norte;Bebidas;Água Mineral 1,5L;Cartão Débito;319;Não;-;3
+660;CUST00660;28/06/25;02/07/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;455;Não;-;3
+661;CUST00661;11/06/25;14/06/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;777;Não;-;3
+662;CUST00662;29/06/25;30/06/25;1;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Débito;442;Sim;Cobrança duplicada;2
+663;CUST00663;29/05/25;07/06/25;9;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;431;Não;-;3
+664;CUST00664;13/06/25;18/06/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;612;Sim;Embalagem violada;1
+665;CUST00665;30/06/25;03/07/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;200;Não;-;3
+666;CUST00666;13/06/25;14/06/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;675;Não;-;3
+667;CUST00667;28/05/25;03/06/25;6;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1236;Não;-;3
+668;CUST00668;17/05/25;19/05/25;2;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1642;Sim;Prazo de entrega excedido;2
+669;CUST00669;17/06/25;27/06/25;10;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1124;Não;-;3
+670;CUST00670;13/06/25;20/06/25;7;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1763;Não;-;3
+671;CUST00671;09/06/25;17/06/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;670;Não;-;3
+672;CUST00672;05/06/25;10/06/25;5;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;351;Não;-;3
+673;CUST00673;21/06/25;28/06/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;592;Não;-;3
+674;CUST00674;18/06/25;21/06/25;3;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;826;Não;-;3
+675;CUST00675;25/06/25;04/07/25;9;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;492;Não;-;3
+676;CUST00676;18/05/25;28/05/25;10;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;589;Não;-;3
+677;CUST00677;21/05/25;26/05/25;5;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Dinheiro;167;Não;Atendimento excelente;4
+678;CUST00678;18/05/25;22/05/25;4;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;344;Não;Ótima qualidade;5
+679;CUST00679;20/05/25;22/05/25;2;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;570;Sim;Produto diferente do pedido;1
+680;CUST00680;20/06/25;30/06/25;10;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;876;Não;Produto conforme anunciado;4
+681;CUST00681;06/06/25;07/06/25;1;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;704;Não;-;3
+682;CUST00682;08/06/25;09/06/25;1;Sudeste;Higiene Pessoal;Creme Dental 90g;Dinheiro;596;Não;-;3
+683;CUST00683;06/06/25;12/06/25;6;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;334;Não;-;3
+684;CUST00684;16/06/25;21/06/25;5;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;527;Não;-;3
+685;CUST00685;24/06/25;28/06/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;213;Não;-;3
+686;CUST00686;08/06/25;14/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;PIX;255;Não;-;3
+687;CUST00687;26/06/25;27/06/25;1;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1751;Não;-;3
+688;CUST00688;10/06/25;15/06/25;5;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1260;Não;Atendimento excelente;5
+689;CUST00689;19/05/25;22/05/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;828;Não;-;3
+690;CUST00690;30/05/25;05/06/25;6;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2629;Não;Compra sem complicações;4
+691;CUST00691;20/05/25;30/05/25;10;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;924;Não;-;3
+692;CUST00692;24/06/25;27/06/25;3;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;244;Não;-;3
+693;CUST00693;06/06/25;12/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;PIX;398;Não;-;3
+694;CUST00694;24/06/25;29/06/25;5;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;3301;Sim;Produto diferente do pedido;1
+695;CUST00695;30/06/25;04/07/25;4;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;3355;Não;-;3
+696;CUST00696;18/06/25;27/06/25;9;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;886;Não;-;3
+697;CUST00697;17/06/25;21/06/25;4;Nordeste;Limpeza Doméstica;Esponja Múltipla;PIX;130;Não;-;3
+698;CUST00698;17/05/25;18/05/25;1;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;276;Não;-;3
+699;CUST00699;05/06/25;06/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1667;Não;-;3
+700;CUST00700;27/05/25;01/06/25;5;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;330;Não;-;3
+701;CUST00701;16/05/25;21/05/25;5;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Dinheiro;1842;Não;-;3
+702;CUST00702;08/06/25;18/06/25;10;Sul;Alimentos Básicos;Farinha de Trigo 1kg;PIX;744;Não;Entrega rápida e sem problemas;5
+703;CUST00703;21/05/25;25/05/25;4;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1348;Não;-;3
+704;CUST00704;04/06/25;06/06/25;2;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;169;Sim;Produto danificado;1
+705;CUST00705;05/06/25;07/06/25;2;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Débito;304;Não;-;3
+706;CUST00706;14/06/25;18/06/25;4;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;629;Sim;Produto diferente do pedido;2
+707;CUST00707;28/05/25;29/05/25;1;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2864;Não;-;3
+708;CUST00708;20/06/25;25/06/25;5;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1153;Não;-;3
+709;CUST00709;16/05/25;24/05/25;8;Norte;Higiene Pessoal;Sabonete em Barra;PIX;195;Não;-;3
+710;CUST00710;29/06/25;01/07/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;852;Sim;Cobrança duplicada;2
+711;CUST00711;26/06/25;30/06/25;4;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;506;Não;-;3
+712;CUST00712;16/06/25;23/06/25;7;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;160;Sim;Atraso na entrega;2
+713;CUST00713;28/06/25;30/06/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1490;Não;-;3
+714;CUST00714;18/06/25;28/06/25;10;Norte;Higiene Pessoal;Shampoo 400ml;PIX;846;Não;-;3
+715;CUST00715;10/06/25;16/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;356;Sim;Atendimento ruim;2
+716;CUST00716;17/05/25;20/05/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;684;Não;-;3
+717;CUST00717;20/05/25;25/05/25;5;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;446;Não;-;3
+718;CUST00718;27/06/25;30/06/25;3;Sudeste;Higiene Pessoal;Creme Dental 90g;PIX;334;Não;-;3
+719;CUST00719;24/05/25;25/05/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1165;Não;-;3
+720;CUST00720;26/06/25;28/06/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;304;Não;-;3
+721;CUST00721;09/06/25;13/06/25;4;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;931;Não;Atendimento excelente;4
+722;CUST00722;20/06/25;25/06/25;5;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;592;Não;-;3
+723;CUST00723;29/06/25;07/07/25;8;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;1697;Não;-;3
+724;CUST00724;18/05/25;24/05/25;6;Norte;Alimentos Básicos;Feijão Carioca (1kg);PIX;855;Não;-;3
+725;CUST00725;30/05/25;01/06/25;2;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;569;Sim;Atendimento ruim;1
+726;CUST00726;17/05/25;25/05/25;8;Norte;Higiene Pessoal;Creme Dental 90g;PIX;294;Sim;Cobrança duplicada;2
+727;CUST00727;18/06/25;20/06/25;2;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;375;Não;-;3
+728;CUST00728;28/05/25;02/06/25;5;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;613;Não;Entrega rápida e sem problemas;4
+729;CUST00729;03/06/25;11/06/25;8;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1373;Não;-;3
+730;CUST00730;18/05/25;28/05/25;10;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;282;Sim;Atendimento ruim;2
+731;CUST00731;27/06/25;02/07/25;5;Norte;Bebidas;Suco de Laranja 1L;Dinheiro;517;Não;-;3
+732;CUST00732;23/06/25;24/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Dinheiro;1192;Não;-;3
+733;CUST00733;11/06/25;12/06/25;1;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;214;Não;-;3
+734;CUST00734;20/05/25;26/05/25;6;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;393;Não;-;3
+735;CUST00735;20/06/25;23/06/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;337;Não;-;3
+736;CUST00736;19/05/25;25/05/25;6;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;568;Não;-;3
+737;CUST00737;23/06/25;29/06/25;6;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;250;Não;-;3
+738;CUST00738;02/06/25;03/06/25;1;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1597;Não;-;3
+739;CUST00739;17/05/25;21/05/25;4;Nordeste;Limpeza Doméstica;Esponja Múltipla;PIX;216;Não;-;3
+740;CUST00740;30/05/25;07/06/25;8;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1677;Não;-;3
+741;CUST00741;05/06/25;13/06/25;8;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Débito;553;Sim;Embalagem violada;1
+742;CUST00742;16/06/25;18/06/25;2;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;246;Não;Atendimento excelente;5
+743;CUST00743;19/06/25;22/06/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;682;Não;-;3
+744;CUST00744;20/05/25;27/05/25;7;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1050;Não;-;3
+745;CUST00745;24/06/25;02/07/25;8;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1292;Não;-;3
+746;CUST00746;25/06/25;28/06/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;1169;Não;Produto conforme anunciado;5
+747;CUST00747;01/06/25;02/06/25;1;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;913;Sim;Atraso na entrega;1
+748;CUST00748;13/06/25;22/06/25;9;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;644;Não;-;3
+749;CUST00749;18/06/25;19/06/25;1;Sudeste;Bebidas;Refrigerante Cola 2L;PIX;1138;Sim;Produto danificado;2
+750;CUST00750;31/05/25;07/06/25;7;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;653;Sim;Atendimento ruim;2
+751;CUST00751;17/05/25;25/05/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;3367;Não;Atendimento excelente;5
+752;CUST00752;22/06/25;26/06/25;4;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;932;Não;-;3
+753;CUST00753;10/06/25;17/06/25;7;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1751;Não;-;3
+754;CUST00754;21/06/25;24/06/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;1183;Não;-;3
+755;CUST00755;26/06/25;01/07/25;5;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;309;Não;-;3
+756;CUST00756;16/05/25;18/05/25;2;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1628;Não;Entrega rápida e sem problemas;4
+757;CUST00757;20/06/25;26/06/25;6;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Dinheiro;576;Sim;Atraso na entrega;2
+758;CUST00758;27/05/25;04/06/25;8;Norte;Alimentos Básicos;Feijão Carioca (1kg);PIX;820;Não;-;3
+759;CUST00759;04/06/25;12/06/25;8;Sul;Limpeza Doméstica;Desinfetante 1L;Dinheiro;546;Não;-;3
+760;CUST00760;28/06/25;30/06/25;2;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1249;Não;-;3
+761;CUST00761;26/05/25;29/05/25;3;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;450;Não;-;3
+762;CUST00762;18/05/25;23/05/25;5;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;526;Não;-;3
+763;CUST00763;23/05/25;24/05/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;168;Não;-;3
+764;CUST00764;25/05/25;28/05/25;3;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1753;Não;-;3
+765;CUST00765;20/06/25;23/06/25;3;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1456;Não;-;3
+766;CUST00766;30/05/25;05/06/25;6;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;279;Sim;Prazo de entrega excedido;2
+767;CUST00767;02/06/25;05/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;190;Sim;Quantidade incorreta;1
+768;CUST00768;25/06/25;27/06/25;2;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;932;Não;-;3
+769;CUST00769;20/05/25;22/05/25;2;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;628;Não;-;3
+770;CUST00770;29/06/25;04/07/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1127;Não;-;3
+771;CUST00771;20/06/25;25/06/25;5;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1743;Não;Atendimento excelente;4
+772;CUST00772;26/06/25;01/07/25;5;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;210;Não;-;3
+773;CUST00773;02/06/25;12/06/25;10;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1016;Não;-;3
+774;CUST00774;06/06/25;08/06/25;2;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;496;Sim;Cobrança duplicada;1
+775;CUST00775;17/06/25;27/06/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;456;Sim;Produto diferente do pedido;1
+776;CUST00776;21/06/25;26/06/25;5;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;106;Não;-;3
+777;CUST00777;05/06/25;14/06/25;9;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1660;Sim;Embalagem violada;1
+778;CUST00778;15/06/25;25/06/25;10;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Débito;545;Não;-;3
+779;CUST00779;12/06/25;22/06/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;410;Não;-;3
+780;CUST00780;03/06/25;04/06/25;1;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;368;Não;-;3
+781;CUST00781;09/06/25;11/06/25;2;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1055;Não;-;3
+782;CUST00782;15/05/25;25/05/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;223;Não;Entrega rápida e sem problemas;5
+783;CUST00783;07/06/25;10/06/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Dinheiro;1886;Não;-;3
+784;CUST00784;15/06/25;17/06/25;2;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;750;Não;Entrega rápida e sem problemas;5
+785;CUST00785;24/06/25;27/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;157;Não;-;3
+786;CUST00786;06/06/25;09/06/25;3;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;788;Não;-;3
+787;CUST00787;08/06/25;13/06/25;5;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;221;Não;-;3
+788;CUST00788;03/06/25;07/06/25;4;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;216;Não;-;3
+789;CUST00789;24/05/25;26/05/25;2;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;557;Sim;Atraso na entrega;2
+790;CUST00790;26/06/25;04/07/25;8;Norte;Alimentos Básicos;Feijão Carioca (1kg);PIX;686;Não;-;3
+791;CUST00791;23/05/25;27/05/25;4;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1402;Não;Atendimento excelente;5
+792;CUST00792;09/06/25;12/06/25;3;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;399;Não;-;3
+793;CUST00793;17/05/25;27/05/25;10;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;259;Sim;Embalagem violada;2
+794;CUST00794;21/06/25;29/06/25;8;Sul;Higiene Pessoal;Papel Higiênico c/12;PIX;1179;Sim;Prazo de entrega excedido;1
+795;CUST00795;29/06/25;04/07/25;5;Sudeste;Higiene Pessoal;Creme Dental 90g;Dinheiro;580;Não;-;3
+796;CUST00796;17/05/25;26/05/25;9;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;302;Não;-;3
+797;CUST00797;23/06/25;26/06/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1013;Não;-;3
+798;CUST00798;26/06/25;29/06/25;3;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1233;Sim;Atraso na entrega;1
+799;CUST00799;21/05/25;24/05/25;3;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1146;Sim;Cobrança duplicada;2
+800;CUST00800;03/06/25;06/06/25;3;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;589;Não;-;3
+801;CUST00801;14/06/25;15/06/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;810;Não;-;3
+802;CUST00802;26/06/25;01/07/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;906;Não;Atendimento excelente;4
+803;CUST00803;26/05/25;28/05/25;2;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;260;Sim;Embalagem violada;1
+804;CUST00804;20/06/25;30/06/25;10;Norte;Bebidas;Água Mineral 1,5L;Cartão Débito;246;Sim;Cobrança duplicada;1
+805;CUST00805;25/05/25;03/06/25;9;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;614;Não;-;3
+806;CUST00806;09/06/25;14/06/25;5;Sul;Higiene Pessoal;Papel Higiênico c/12;PIX;1567;Não;-;3
+807;CUST00807;28/05/25;02/06/25;5;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;592;Não;-;3
+808;CUST00808;20/05/25;29/05/25;9;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;410;Não;-;3
+809;CUST00809;26/06/25;28/06/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1379;Não;-;3
+810;CUST00810;24/06/25;25/06/25;1;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Débito;206;Sim;Embalagem violada;1
+811;CUST00811;30/06/25;08/07/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;114;Não;-;3
+812;CUST00812;03/06/25;07/06/25;4;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2522;Não;-;3
+813;CUST00813;22/06/25;27/06/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;650;Não;-;3
+814;CUST00814;15/06/25;20/06/25;5;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;624;Não;Entrega rápida e sem problemas;4
+815;CUST00815;23/05/25;01/06/25;9;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;468;Não;-;3
+816;CUST00816;11/06/25;16/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;673;Não;-;3
+817;CUST00817;22/05/25;23/05/25;1;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1656;Não;-;3
+818;CUST00818;11/06/25;14/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Dinheiro;194;Sim;Produto danificado;1
+819;CUST00819;10/06/25;12/06/25;2;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2184;Não;-;3
+820;CUST00820;25/06/25;30/06/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1419;Não;-;3
+821;CUST00821;19/05/25;23/05/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;655;Não;-;3
+822;CUST00822;29/05/25;30/05/25;1;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;652;Não;-;3
+823;CUST00823;11/06/25;12/06/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;658;Não;-;3
+824;CUST00824;03/06/25;13/06/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;262;Não;-;3
+825;CUST00825;20/05/25;23/05/25;3;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;521;Não;-;3
+826;CUST00826;18/05/25;25/05/25;7;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;776;Não;-;3
+827;CUST00827;28/05/25;06/06/25;9;Norte;Bebidas;Água Mineral 1,5L;PIX;389;Não;-;3
+828;CUST00828;24/06/25;29/06/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1280;Não;-;3
+829;CUST00829;17/06/25;20/06/25;3;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;277;Sim;Atraso na entrega;1
+830;CUST00830;20/05/25;23/05/25;3;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;239;Não;-;3
+831;CUST00831;21/05/25;29/05/25;8;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Débito;375;Não;-;3
+832;CUST00832;14/06/25;17/06/25;3;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;570;Não;-;3
+833;CUST00833;16/06/25;26/06/25;10;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1114;Não;-;3
+834;CUST00834;02/06/25;07/06/25;5;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;295;Não;-;3
+835;CUST00835;16/05/25;18/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;345;Não;-;3
+836;CUST00836;12/06/25;16/06/25;4;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;263;Sim;Produto diferente do pedido;1
+837;CUST00837;06/06/25;12/06/25;6;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1745;Não;-;3
+838;CUST00838;30/05/25;05/06/25;6;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3001;Não;-;3
+839;CUST00839;13/06/25;19/06/25;6;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1284;Não;-;3
+840;CUST00840;24/05/25;29/05/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;PIX;789;Não;-;3
+841;CUST00841;22/06/25;28/06/25;6;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1083;Não;-;3
+842;CUST00842;13/06/25;19/06/25;6;Sul;Limpeza Doméstica;Desinfetante 1L;PIX;393;Não;Entrega rápida e sem problemas;4
+843;CUST00843;12/06/25;20/06/25;8;Norte;Bebidas;Suco de Laranja 1L;PIX;999;Não;-;3
+844;CUST00844;12/06/25;15/06/25;3;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1589;Não;-;3
+845;CUST00845;25/06/25;02/07/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;435;Sim;Embalagem violada;2
+846;CUST00846;28/06/25;29/06/25;1;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;805;Sim;Embalagem violada;1
+847;CUST00847;06/06/25;10/06/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;874;Não;Atendimento excelente;4
+848;CUST00848;06/06/25;07/06/25;1;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;364;Não;-;3
+849;CUST00849;17/05/25;21/05/25;4;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;641;Não;-;3
+850;CUST00850;18/05/25;23/05/25;5;Sudeste;Higiene Pessoal;Shampoo 400ml;PIX;1171;Sim;Produto diferente do pedido;1
+851;CUST00851;04/06/25;14/06/25;10;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;888;Sim;Produto diferente do pedido;2
+852;CUST00852;20/05/25;25/05/25;5;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;680;Não;-;3
+853;CUST00853;08/06/25;11/06/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;626;Sim;Atendimento ruim;1
+854;CUST00854;17/06/25;19/06/25;2;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1670;Não;-;3
+855;CUST00855;20/06/25;22/06/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;288;Sim;Quantidade incorreta;2
+856;CUST00856;25/06/25;02/07/25;7;Sul;Bebidas;Refrigerante Cola 2L;PIX;894;Não;-;3
+857;CUST00857;21/05/25;26/05/25;5;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;506;Não;-;3
+858;CUST00858;09/06/25;10/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1443;Não;-;3
+859;CUST00859;19/06/25;20/06/25;1;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;356;Sim;Atendimento ruim;2
+860;CUST00860;26/06/25;02/07/25;6;Norte;Higiene Pessoal;Sabonete em Barra;PIX;395;Não;-;3
+861;CUST00861;11/06/25;14/06/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;1083;Não;-;3
+862;CUST00862;21/05/25;26/05/25;5;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1752;Sim;Produto diferente do pedido;1
+863;CUST00863;27/05/25;03/06/25;7;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;861;Não;-;3
+864;CUST00864;20/06/25;21/06/25;1;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1314;Não;-;3
+865;CUST00865;01/06/25;06/06/25;5;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1475;Não;-;3
+866;CUST00866;04/06/25;08/06/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;400;Sim;Embalagem violada;1
+867;CUST00867;22/06/25;24/06/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1373;Sim;Produto danificado;2
+868;CUST00868;12/06/25;21/06/25;9;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1030;Não;-;3
+869;CUST00869;05/06/25;14/06/25;9;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1399;Não;-;3
+870;CUST00870;26/05/25;03/06/25;8;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1402;Sim;Produto diferente do pedido;2
+871;CUST00871;25/05/25;01/06/25;7;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;427;Não;-;3
+872;CUST00872;27/05/25;30/05/25;3;Centro-Oeste;Bebidas;Água Mineral 1,5L;PIX;396;Não;-;3
+873;CUST00873;06/06/25;13/06/25;7;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1012;Não;-;3
+874;CUST00874;28/06/25;29/06/25;1;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;407;Sim;Atendimento ruim;2
+875;CUST00875;18/05/25;21/05/25;3;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1190;Sim;Produto danificado;2
+876;CUST00876;28/06/25;01/07/25;3;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;210;Não;-;3
+877;CUST00877;08/06/25;12/06/25;4;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;510;Não;-;3
+878;CUST00878;17/05/25;22/05/25;5;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;588;Não;Produto conforme anunciado;4
+879;CUST00879;26/05/25;27/05/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;629;Não;-;3
+880;CUST00880;07/06/25;12/06/25;5;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;688;Não;-;3
+881;CUST00881;31/05/25;01/06/25;1;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;505;Não;-;3
+882;CUST00882;30/06/25;05/07/25;5;Nordeste;Bebidas;Suco de Laranja 1L;PIX;733;Não;-;3
+883;CUST00883;22/06/25;27/06/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;802;Não;-;3
+884;CUST00884;06/06/25;09/06/25;3;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;315;Sim;Atraso na entrega;1
+885;CUST00885;11/06/25;21/06/25;10;Norte;Bebidas;Refrigerante Cola 2L;Cartão Débito;901;Não;Ótima qualidade;4
+886;CUST00886;27/06/25;02/07/25;5;Sul;Higiene Pessoal;Shampoo 400ml;Dinheiro;1545;Sim;Prazo de entrega excedido;2
+887;CUST00887;15/05/25;20/05/25;5;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1080;Sim;Produto danificado;1
+888;CUST00888;19/06/25;24/06/25;5;Norte;Higiene Pessoal;Creme Dental 90g;PIX;586;Não;-;3
+889;CUST00889;01/06/25;06/06/25;5;Nordeste;Limpeza Doméstica;Esponja Múltipla;Dinheiro;269;Não;-;3
+890;CUST00890;07/06/25;13/06/25;6;Sul;Higiene Pessoal;Shampoo 400ml;Dinheiro;1311;Não;-;3
+891;CUST00891;17/05/25;21/05/25;4;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;743;Sim;Embalagem violada;2
+892;CUST00892;24/06/25;25/06/25;1;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1621;Não;-;3
+893;CUST00893;16/05/25;25/05/25;9;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;902;Sim;Produto diferente do pedido;2
+894;CUST00894;21/06/25;23/06/25;2;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;379;Sim;Prazo de entrega excedido;1
+895;CUST00895;26/06/25;28/06/25;2;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;986;Não;-;3
+896;CUST00896;09/06/25;13/06/25;4;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Débito;259;Não;-;3
+897;CUST00897;26/06/25;03/07/25;7;Sul;Limpeza Doméstica;Esponja Múltipla;PIX;247;Não;-;3
+898;CUST00898;31/05/25;04/06/25;4;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1351;Sim;Prazo de entrega excedido;1
+899;CUST00899;26/05/25;31/05/25;5;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;990;Não;-;3
+900;CUST00900;23/05/25;27/05/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1242;Não;-;3
+901;CUST00901;27/06/25;03/07/25;6;Sul;Alimentos Básicos;Farinha de Trigo 1kg;PIX;467;Não;-;3
+902;CUST00902;17/05/25;19/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;368;Não;-;3
+903;CUST00903;07/06/25;08/06/25;1;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Débito;967;Não;-;3
+904;CUST00904;18/05/25;21/05/25;3;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Débito;275;Não;-;3
+905;CUST00905;13/06/25;15/06/25;2;Nordeste;Limpeza Doméstica;Esponja Múltipla;Dinheiro;228;Não;-;3
+906;CUST00906;27/06/25;06/07/25;9;Sul;Higiene Pessoal;Creme Dental 90g;PIX;498;Não;Produto conforme anunciado;4
+907;CUST00907;13/06/25;23/06/25;10;Sul;Limpeza Doméstica;Sabão em Pó 1kg;PIX;727;Não;-;3
+908;CUST00908;29/06/25;03/07/25;4;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1596;Não;-;3
+909;CUST00909;25/06/25;28/06/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;632;Não;-;3
+910;CUST00910;19/06/25;22/06/25;3;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2136;Não;-;3
+911;CUST00911;26/06/25;29/06/25;3;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;520;Não;-;3
+912;CUST00912;10/06/25;16/06/25;6;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1679;Não;-;3
+913;CUST00913;27/05/25;31/05/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1382;Não;Entrega rápida e sem problemas;5
+914;CUST00914;07/06/25;09/06/25;2;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;1134;Sim;Produto danificado;2
+915;CUST00915;25/05/25;31/05/25;6;Norte;Higiene Pessoal;Creme Dental 90g;PIX;394;Não;-;3
+916;CUST00916;06/06/25;16/06/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;206;Não;-;3
+917;CUST00917;06/06/25;14/06/25;8;Norte;Bebidas;Água Mineral 1,5L;PIX;485;Não;-;3
+918;CUST00918;16/05/25;21/05/25;5;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1241;Sim;Cobrança duplicada;2
+919;CUST00919;08/06/25;16/06/25;8;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1386;Não;-;3
+920;CUST00920;16/06/25;17/06/25;1;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1166;Não;-;3
+921;CUST00921;20/05/25;23/05/25;3;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;546;Sim;Produto danificado;2
+922;CUST00922;27/06/25;29/06/25;2;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;468;Sim;Embalagem violada;1
+923;CUST00923;03/06/25;13/06/25;10;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;838;Não;Ótima qualidade;4
+924;CUST00924;28/06/25;30/06/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;258;Não;-;3
+925;CUST00925;20/05/25;28/05/25;8;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1492;Não;Entrega rápida e sem problemas;4
+926;CUST00926;19/05/25;20/05/25;1;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1212;Não;-;3
+927;CUST00927;03/06/25;07/06/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;569;Não;-;3
+928;CUST00928;22/05/25;27/05/25;5;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;729;Não;-;3
+929;CUST00929;31/05/25;09/06/25;9;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;223;Não;-;3
+930;CUST00930;18/05/25;20/05/25;2;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Dinheiro;2586;Não;-;3
+931;CUST00931;11/06/25;16/06/25;5;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;872;Não;-;3
+932;CUST00932;15/06/25;23/06/25;8;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1770;Não;Ótima qualidade;4
+933;CUST00933;29/06/25;04/07/25;5;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;718;Não;-;3
+934;CUST00934;24/06/25;01/07/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;PIX;421;Sim;Cobrança duplicada;1
+935;CUST00935;10/06/25;12/06/25;2;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1048;Não;-;3
+936;CUST00936;07/06/25;12/06/25;5;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Débito;438;Não;-;3
+937;CUST00937;16/05/25;17/05/25;1;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;483;Sim;Cobrança duplicada;1
+938;CUST00938;24/05/25;03/06/25;10;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;458;Não;-;3
+939;CUST00939;13/06/25;23/06/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1958;Não;-;3
+940;CUST00940;17/06/25;20/06/25;3;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;327;Não;-;3
+941;CUST00941;07/06/25;15/06/25;8;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;621;Não;-;3
+942;CUST00942;16/05/25;18/05/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;109;Não;-;3
+943;CUST00943;24/06/25;26/06/25;2;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;445;Não;-;3
+944;CUST00944;01/06/25;03/06/25;2;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;764;Não;-;3
+945;CUST00945;11/06/25;18/06/25;7;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1260;Não;-;3
+946;CUST00946;19/06/25;29/06/25;10;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1647;Sim;Prazo de entrega excedido;1
+947;CUST00947;18/05/25;22/05/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1667;Não;Entrega rápida e sem problemas;5
+948;CUST00948;25/05/25;30/05/25;5;Sul;Bebidas;Refrigerante Cola 2L;Dinheiro;1040;Não;-;3
+949;CUST00949;22/05/25;25/05/25;3;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;562;Não;-;3
+950;CUST00950;11/06/25;18/06/25;7;Norte;Bebidas;Refrigerante Cola 2L;PIX;1147;Sim;Produto diferente do pedido;1
+951;CUST00951;05/06/25;10/06/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;507;Sim;Atraso na entrega;2
+952;CUST00952;21/06/25;23/06/25;2;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;441;Não;-;3
+953;CUST00953;09/06/25;17/06/25;8;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;922;Sim;Atraso na entrega;2
+954;CUST00954;05/06/25;10/06/25;5;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1497;Não;-;3
+955;CUST00955;19/05/25;23/05/25;4;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1106;Não;-;3
+956;CUST00956;25/05/25;27/05/25;2;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2042;Não;-;3
+957;CUST00957;20/06/25;24/06/25;4;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2411;Não;-;3
+958;CUST00958;29/05/25;03/06/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1508;Não;-;3
+959;CUST00959;31/05/25;05/06/25;5;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;875;Não;-;3
+960;CUST00960;26/05/25;28/05/25;2;Sudeste;Higiene Pessoal;Creme Dental 90g;PIX;267;Sim;Prazo de entrega excedido;2
+961;CUST00961;17/06/25;22/06/25;5;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;2077;Não;-;3
+962;CUST00962;05/06/25;09/06/25;4;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;324;Sim;Produto danificado;2
+963;CUST00963;02/06/25;07/06/25;5;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;392;Não;-;3
+964;CUST00964;31/05/25;04/06/25;4;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;712;Não;-;3
+965;CUST00965;11/06/25;12/06/25;1;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1544;Sim;Prazo de entrega excedido;2
+966;CUST00966;15/06/25;19/06/25;4;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1520;Não;Compra sem complicações;5
+967;CUST00967;27/05/25;03/06/25;7;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1964;Não;-;3
+968;CUST00968;26/06/25;02/07/25;6;Norte;Bebidas;Água Mineral 1,5L;PIX;264;Não;-;3
+969;CUST00969;05/06/25;13/06/25;8;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;670;Sim;Cobrança duplicada;1
+970;CUST00970;16/05/25;24/05/25;8;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2762;Não;-;3
+971;CUST00971;31/05/25;04/06/25;4;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;320;Não;-;3
+972;CUST00972;16/05/25;22/05/25;6;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;481;Não;-;3
+973;CUST00973;14/06/25;18/06/25;4;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;641;Sim;Atendimento ruim;2
+974;CUST00974;29/06/25;30/06/25;1;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;445;Não;-;3
+975;CUST00975;05/06/25;11/06/25;6;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2100;Não;-;3
+976;CUST00976;21/06/25;25/06/25;4;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;717;Sim;Produto diferente do pedido;2
+977;CUST00977;25/06/25;02/07/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;517;Não;-;3
+978;CUST00978;19/06/25;26/06/25;7;Sul;Bebidas;Refrigerante Cola 2L;PIX;961;Não;Compra sem complicações;4
+979;CUST00979;16/05/25;19/05/25;3;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1671;Não;-;3
+980;CUST00980;22/06/25;30/06/25;8;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;905;Não;-;3
+981;CUST00981;19/05/25;20/05/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1773;Não;-;3
+982;CUST00982;08/06/25;18/06/25;10;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;778;Sim;Embalagem violada;1
+983;CUST00983;25/06/25;30/06/25;5;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;188;Não;-;3
+984;CUST00984;09/06/25;18/06/25;9;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;648;Não;-;3
+985;CUST00985;05/06/25;08/06/25;3;Sudeste;Higiene Pessoal;Creme Dental 90g;PIX;420;Não;-;3
+986;CUST00986;20/05/25;23/05/25;3;Nordeste;Bebidas;Suco de Laranja 1L;PIX;696;Sim;Produto danificado;1
+987;CUST00987;28/05/25;30/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;283;Não;-;3
+988;CUST00988;10/06/25;13/06/25;3;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;642;Não;-;3
+989;CUST00989;01/06/25;02/06/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1692;Sim;Prazo de entrega excedido;1
+990;CUST00990;17/05/25;23/05/25;6;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;953;Não;-;3
+991;CUST00991;28/06/25;02/07/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;556;Não;-;3
+992;CUST00992;23/05/25;28/05/25;5;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1296;Sim;Atraso na entrega;2
+993;CUST00993;15/05/25;19/05/25;4;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;PIX;463;Não;-;3
+994;CUST00994;09/06/25;19/06/25;10;Sul;Bebidas;Refrigerante Cola 2L;PIX;606;Não;-;3
+995;CUST00995;27/05/25;01/06/25;5;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;271;Não;Entrega rápida e sem problemas;5
+996;CUST00996;27/05/25;29/05/25;2;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;805;Não;Produto conforme anunciado;4
+997;CUST00997;02/06/25;06/06/25;4;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;557;Não;-;3
+998;CUST00998;12/06/25;22/06/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Débito;396;Não;-;3
+999;CUST00999;16/06/25;18/06/25;2;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1769;Não;-;3
+1000;CUST01000;13/06/25;20/06/25;7;Sul;Limpeza Doméstica;Esponja Múltipla;PIX;195;Não;-;3
+1001;CUST01001;14/06/25;23/06/25;9;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;102;Não;-;3
+1002;CUST01002;04/06/25;08/06/25;4;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;708;Não;-;3
+1003;CUST01003;23/06/25;02/07/25;9;Sul;Bebidas;Refrigerante Cola 2L;PIX;1078;Não;-;3
+1004;CUST01004;23/06/25;01/07/25;8;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;621;Não;-;3
+1005;CUST01005;29/06/25;03/07/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;838;Sim;Produto danificado;1
+1006;CUST01006;19/05/25;29/05/25;10;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;731;Não;-;3
+1007;CUST01007;04/06/25;09/06/25;5;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;510;Não;-;3
+1008;CUST01008;21/06/25;25/06/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;485;Não;Atendimento excelente;4
+1009;CUST01009;28/06/25;06/07/25;8;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1211;Não;-;3
+1010;CUST01010;25/05/25;04/06/25;10;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;869;Não;-;3
+1011;CUST01011;29/05/25;01/06/25;3;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1466;Não;-;3
+1012;CUST01012;29/06/25;01/07/25;2;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;420;Não;-;3
+1013;CUST01013;15/06/25;19/06/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1334;Sim;Produto danificado;2
+1014;CUST01014;28/06/25;03/07/25;5;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1604;Não;-;3
+1015;CUST01015;15/05/25;23/05/25;8;Norte;Bebidas;Refrigerante Cola 2L;PIX;786;Não;-;3
+1016;CUST01016;16/05/25;26/05/25;10;Sul;Alimentos Básicos;Macarrão Espaguete 500g;PIX;622;Não;-;3
+1017;CUST01017;24/05/25;03/06/25;10;Sul;Higiene Pessoal;Creme Dental 90g;PIX;556;Não;-;3
+1018;CUST01018;27/06/25;02/07/25;5;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;287;Não;-;3
+1019;CUST01019;10/06/25;11/06/25;1;Nordeste;Bebidas;Água Mineral 1,5L;Dinheiro;322;Não;-;3
+1020;CUST01020;25/05/25;29/05/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;638;Não;-;3
+1021;CUST01021;05/06/25;10/06/25;5;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;820;Não;-;3
+1022;CUST01022;05/06/25;06/06/25;1;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;299;Não;-;3
+1023;CUST01023;09/06/25;13/06/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;343;Não;Compra sem complicações;4
+1024;CUST01024;17/05/25;22/05/25;5;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;876;Não;-;3
+1025;CUST01025;23/05/25;25/05/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1360;Não;-;3
+1026;CUST01026;16/05/25;20/05/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;1037;Sim;Produto danificado;1
+1027;CUST01027;18/05/25;22/05/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1255;Não;-;3
+1028;CUST01028;24/05/25;29/05/25;5;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;677;Sim;Quantidade incorreta;2
+1029;CUST01029;16/05/25;24/05/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;623;Sim;Quantidade incorreta;1
+1030;CUST01030;24/06/25;26/06/25;2;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;405;Não;-;3
+1031;CUST01031;15/06/25;20/06/25;5;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1067;Não;-;3
+1032;CUST01032;24/05/25;03/06/25;10;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2879;Não;-;3
+1033;CUST01033;23/06/25;03/07/25;10;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;1913;Não;-;3
+1034;CUST01034;14/06/25;18/06/25;4;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;884;Não;-;3
+1035;CUST01035;24/06/25;25/06/25;1;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;156;Não;Produto conforme anunciado;4
+1036;CUST01036;25/06/25;03/07/25;8;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;474;Não;-;3
+1037;CUST01037;16/05/25;21/05/25;5;Sul;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1034;Não;-;3
+1038;CUST01038;08/06/25;10/06/25;2;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;412;Não;-;3
+1039;CUST01039;19/06/25;23/06/25;4;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;1027;Não;-;3
+1040;CUST01040;14/06/25;19/06/25;5;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;543;Não;-;3
+1041;CUST01041;28/05/25;30/05/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1331;Não;-;3
+1042;CUST01042;21/05/25;22/05/25;1;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;560;Não;-;3
+1043;CUST01043;18/05/25;20/05/25;2;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;622;Não;-;3
+1044;CUST01044;15/06/25;16/06/25;1;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;312;Não;-;3
+1045;CUST01045;30/05/25;02/06/25;3;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1275;Não;-;3
+1046;CUST01046;26/05/25;27/05/25;1;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;PIX;513;Não;-;3
+1047;CUST01047;19/05/25;21/05/25;2;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1673;Não;-;3
+1048;CUST01048;09/06/25;13/06/25;4;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;526;Não;-;3
+1049;CUST01049;25/05/25;27/05/25;2;Sudeste;Bebidas;Refrigerante Cola 2L;Dinheiro;1001;Não;-;3
+1050;CUST01050;11/06/25;19/06/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;205;Não;-;3
+1051;CUST01051;28/05/25;02/06/25;5;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;599;Sim;Quantidade incorreta;2
+1052;CUST01052;17/05/25;23/05/25;6;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;792;Não;-;3
+1053;CUST01053;21/05/25;23/05/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;163;Não;Produto conforme anunciado;5
+1054;CUST01054;28/05/25;31/05/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;771;Não;-;3
+1055;CUST01055;18/06/25;22/06/25;4;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;519;Não;-;3
+1056;CUST01056;18/06/25;20/06/25;2;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1973;Não;-;3
+1057;CUST01057;01/06/25;04/06/25;3;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;3015;Não;-;3
+1058;CUST01058;13/06/25;22/06/25;9;Sul;Higiene Pessoal;Creme Dental 90g;PIX;376;Não;-;3
+1059;CUST01059;21/06/25;26/06/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1233;Não;-;3
+1060;CUST01060;21/05/25;26/05/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;942;Não;Ótima qualidade;4
+1061;CUST01061;15/05/25;17/05/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1847;Não;-;3
+1062;CUST01062;30/05/25;05/06/25;6;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;1702;Sim;Embalagem violada;2
+1063;CUST01063;16/05/25;20/05/25;4;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;335;Não;-;3
+1064;CUST01064;23/05/25;27/05/25;4;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1055;Sim;Embalagem violada;1
+1065;CUST01065;31/05/25;01/06/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;859;Não;-;3
+1066;CUST01066;05/06/25;09/06/25;4;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;470;Sim;Embalagem violada;2
+1067;CUST01067;23/05/25;26/05/25;3;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1093;Não;Entrega rápida e sem problemas;4
+1068;CUST01068;27/06/25;04/07/25;7;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;845;Não;-;3
+1069;CUST01069;05/06/25;09/06/25;4;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;376;Não;Ótima qualidade;4
+1070;CUST01070;17/05/25;18/05/25;1;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;834;Sim;Cobrança duplicada;1
+1071;CUST01071;15/06/25;16/06/25;1;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1389;Sim;Embalagem violada;2
+1072;CUST01072;16/05/25;17/05/25;1;Sudeste;Higiene Pessoal;Shampoo 400ml;PIX;1322;Não;-;3
+1073;CUST01073;21/05/25;26/05/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1055;Não;-;3
+1074;CUST01074;15/06/25;18/06/25;3;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;512;Não;-;3
+1075;CUST01075;24/05/25;31/05/25;7;Sul;Higiene Pessoal;Sabonete em Barra;PIX;240;Não;Compra sem complicações;4
+1076;CUST01076;12/06/25;18/06/25;6;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;665;Não;-;3
+1077;CUST01077;27/05/25;06/06/25;10;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;264;Não;-;3
+1078;CUST01078;18/06/25;22/06/25;4;Centro-Oeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;419;Não;-;3
+1079;CUST01079;15/06/25;23/06/25;8;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;728;Não;-;3
+1080;CUST01080;22/06/25;27/06/25;5;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1171;Não;-;3
+1081;CUST01081;28/05/25;31/05/25;3;Nordeste;Limpeza Doméstica;Desinfetante 1L;PIX;511;Não;-;3
+1082;CUST01082;19/06/25;27/06/25;8;Norte;Bebidas;Água Mineral 1,5L;PIX;414;Não;-;3
+1083;CUST01083;08/06/25;18/06/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;265;Não;-;3
+1084;CUST01084;25/06/25;04/07/25;9;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2076;Não;-;3
+1085;CUST01085;17/06/25;18/06/25;1;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Dinheiro;1112;Sim;Prazo de entrega excedido;1
+1086;CUST01086;23/05/25;26/05/25;3;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;669;Não;Produto conforme anunciado;4
+1087;CUST01087;20/05/25;24/05/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;601;Não;-;3
+1088;CUST01088;25/05/25;29/05/25;4;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1382;Não;-;3
+1089;CUST01089;28/06/25;30/06/25;2;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;593;Sim;Atraso na entrega;2
+1090;CUST01090;29/06/25;03/07/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;630;Não;-;3
+1091;CUST01091;11/06/25;15/06/25;4;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;270;Não;-;3
+1092;CUST01092;21/06/25;25/06/25;4;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;203;Não;-;3
+1093;CUST01093;15/05/25;20/05/25;5;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;253;Não;-;3
+1094;CUST01094;11/06/25;14/06/25;3;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1188;Não;-;3
+1095;CUST01095;25/05/25;26/05/25;1;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2019;Não;-;3
+1096;CUST01096;13/06/25;17/06/25;4;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1134;Sim;Cobrança duplicada;2
+1097;CUST01097;30/05/25;07/06/25;8;Sul;Higiene Pessoal;Sabonete em Barra;PIX;357;Não;-;3
+1098;CUST01098;28/06/25;03/07/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;780;Não;Ótima qualidade;4
+1099;CUST01099;18/05/25;27/05/25;9;Sul;Higiene Pessoal;Sabonete em Barra;PIX;346;Sim;Produto danificado;1
+1100;CUST01100;28/05/25;02/06/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;PIX;935;Não;-;3
+1101;CUST01101;13/06/25;22/06/25;9;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;406;Não;-;3
+1102;CUST01102;07/06/25;08/06/25;1;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;386;Não;-;3
+1103;CUST01103;20/05/25;24/05/25;4;Sudeste;Bebidas;Refrigerante Cola 2L;PIX;745;Não;-;3
+1104;CUST01104;27/06/25;02/07/25;5;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;714;Não;-;3
+1105;CUST01105;31/05/25;08/06/25;8;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;760;Não;Compra sem complicações;5
+1106;CUST01106;22/06/25;01/07/25;9;Sul;Bebidas;Suco de Laranja 1L;Cartão Débito;543;Sim;Produto danificado;1
+1107;CUST01107;03/06/25;06/06/25;3;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1776;Não;-;3
+1108;CUST01108;20/05/25;22/05/25;2;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2060;Não;-;3
+1109;CUST01109;22/05/25;31/05/25;9;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;647;Sim;Produto danificado;2
+1110;CUST01110;15/06/25;17/06/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1329;Sim;Prazo de entrega excedido;1
+1111;CUST01111;18/06/25;28/06/25;10;Norte;Bebidas;Suco de Laranja 1L;Cartão Débito;739;Não;-;3
+1112;CUST01112;19/05/25;20/05/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;586;Não;-;3
+1113;CUST01113;30/05/25;05/06/25;6;Norte;Higiene Pessoal;Shampoo 400ml;Dinheiro;1457;Não;-;3
+1114;CUST01114;30/06/25;10/07/25;10;Norte;Alimentos Básicos;Farinha de Trigo 1kg;PIX;834;Não;Atendimento excelente;5
+1115;CUST01115;05/06/25;10/06/25;5;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;170;Sim;Atraso na entrega;1
+1116;CUST01116;16/06/25;18/06/25;2;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;447;Não;-;3
+1117;CUST01117;20/05/25;22/05/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;421;Não;-;3
+1118;CUST01118;12/06/25;16/06/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1781;Não;Ótima qualidade;4
+1119;CUST01119;22/06/25;30/06/25;8;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2482;Sim;Produto danificado;1
+1120;CUST01120;14/06/25;19/06/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1369;Não;-;3
+1121;CUST01121;26/06/25;01/07/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1362;Não;-;3
+1122;CUST01122;19/05/25;28/05/25;9;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;507;Não;-;3
+1123;CUST01123;10/06/25;15/06/25;5;Norte;Higiene Pessoal;Papel Higiênico c/12;PIX;1970;Não;-;3
+1124;CUST01124;10/06/25;18/06/25;8;Sul;Higiene Pessoal;Creme Dental 90g;Dinheiro;343;Não;Produto conforme anunciado;5
+1125;CUST01125;24/06/25;01/07/25;7;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1978;Não;-;3
+1126;CUST01126;12/06/25;19/06/25;7;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;406;Não;-;3
+1127;CUST01127;31/05/25;05/06/25;5;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;606;Não;-;3
+1128;CUST01128;17/06/25;20/06/25;3;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;435;Não;-;3
+1129;CUST01129;15/05/25;21/05/25;6;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;201;Não;-;3
+1130;CUST01130;16/06/25;18/06/25;2;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;741;Não;-;3
+1131;CUST01131;29/06/25;05/07/25;6;Sul;Bebidas;Água Mineral 1,5L;PIX;280;Não;Entrega rápida e sem problemas;4
+1132;CUST01132;28/06/25;29/06/25;1;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1817;Não;-;3
+1133;CUST01133;28/06/25;01/07/25;3;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;800;Não;-;3
+1134;CUST01134;17/06/25;27/06/25;10;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1455;Não;-;3
+1135;CUST01135;16/05/25;21/05/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;856;Não;-;3
+1136;CUST01136;11/06/25;21/06/25;10;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;743;Não;-;3
+1137;CUST01137;29/05/25;01/06/25;3;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;683;Sim;Produto diferente do pedido;2
+1138;CUST01138;21/06/25;26/06/25;5;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1310;Não;-;3
+1139;CUST01139;11/06/25;14/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;105;Não;-;3
+1140;CUST01140;21/06/25;26/06/25;5;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;516;Não;-;3
+1141;CUST01141;25/06/25;29/06/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;739;Sim;Produto diferente do pedido;1
+1142;CUST01142;12/06/25;21/06/25;9;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1610;Não;-;3
+1143;CUST01143;24/05/25;26/05/25;2;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;314;Não;-;3
+1144;CUST01144;26/05/25;27/05/25;1;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;234;Sim;Prazo de entrega excedido;1
+1145;CUST01145;27/05/25;30/05/25;3;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1459;Não;-;3
+1146;CUST01146;26/05/25;29/05/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;258;Não;-;3
+1147;CUST01147;29/06/25;09/07/25;10;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;895;Não;Compra sem complicações;4
+1148;CUST01148;01/06/25;06/06/25;5;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2063;Não;-;3
+1149;CUST01149;29/05/25;30/05/25;1;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;723;Não;Produto conforme anunciado;4
+1150;CUST01150;28/05/25;07/06/25;10;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1316;Não;-;3
+1151;CUST01151;25/05/25;01/06/25;7;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;1937;Sim;Cobrança duplicada;2
+1152;CUST01152;16/05/25;25/05/25;9;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1887;Não;-;3
+1153;CUST01153;27/06/25;28/06/25;1;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;469;Não;-;3
+1154;CUST01154;20/05/25;28/05/25;8;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Débito;324;Sim;Atendimento ruim;2
+1155;CUST01155;24/06/25;02/07/25;8;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;1593;Não;-;3
+1156;CUST01156;03/06/25;04/06/25;1;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;566;Não;-;3
+1157;CUST01157;05/06/25;09/06/25;4;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Dinheiro;337;Sim;Embalagem violada;2
+1158;CUST01158;28/06/25;05/07/25;7;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1478;Não;-;3
+1159;CUST01159;16/06/25;21/06/25;5;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;966;Não;-;3
+1160;CUST01160;27/05/25;31/05/25;4;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;458;Não;-;3
+1161;CUST01161;27/06/25;28/06/25;1;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;575;Não;-;3
+1162;CUST01162;19/06/25;23/06/25;4;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;740;Sim;Embalagem violada;2
+1163;CUST01163;01/06/25;11/06/25;10;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;699;Não;-;3
+1164;CUST01164;06/06/25;10/06/25;4;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;970;Não;-;3
+1165;CUST01165;31/05/25;02/06/25;2;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;423;Não;-;3
+1166;CUST01166;17/06/25;21/06/25;4;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1179;Sim;Produto diferente do pedido;1
+1167;CUST01167;02/06/25;08/06/25;6;Norte;Higiene Pessoal;Shampoo 400ml;PIX;941;Não;-;3
+1168;CUST01168;10/06/25;15/06/25;5;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1984;Não;-;3
+1169;CUST01169;16/05/25;20/05/25;4;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;690;Sim;Produto diferente do pedido;1
+1170;CUST01170;16/05/25;21/05/25;5;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;686;Não;-;3
+1171;CUST01171;24/06/25;02/07/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;258;Não;-;3
+1172;CUST01172;25/05/25;29/05/25;4;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1358;Não;-;3
+1173;CUST01173;01/06/25;11/06/25;10;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;615;Não;Ótima qualidade;4
+1174;CUST01174;27/05/25;01/06/25;5;Sul;Bebidas;Água Mineral 1,5L;PIX;331;Não;-;3
+1175;CUST01175;18/06/25;19/06/25;1;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2575;Não;Produto conforme anunciado;4
+1176;CUST01176;28/06/25;01/07/25;3;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;417;Não;-;3
+1177;CUST01177;27/06/25;07/07/25;10;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;3129;Não;-;3
+1178;CUST01178;18/06/25;22/06/25;4;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1230;Não;-;3
+1179;CUST01179;14/06/25;16/06/25;2;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;743;Sim;Cobrança duplicada;1
+1180;CUST01180;03/06/25;06/06/25;3;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2042;Não;-;3
+1181;CUST01181;20/05/25;22/05/25;2;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1126;Não;-;3
+1182;CUST01182;23/05/25;27/05/25;4;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;399;Não;-;3
+1183;CUST01183;18/06/25;19/06/25;1;Centro-Oeste;Bebidas;Água Mineral 1,5L;PIX;216;Sim;Embalagem violada;1
+1184;CUST01184;26/05/25;30/05/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;860;Não;-;3
+1185;CUST01185;21/06/25;22/06/25;1;Nordeste;Bebidas;Suco de Laranja 1L;PIX;830;Não;Ótima qualidade;5
+1186;CUST01186;28/05/25;02/06/25;5;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Débito;447;Não;-;3
+1187;CUST01187;10/06/25;15/06/25;5;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;249;Não;-;3
+1188;CUST01188;15/05/25;17/05/25;2;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;571;Não;-;3
+1189;CUST01189;20/05/25;23/05/25;3;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;486;Não;-;3
+1190;CUST01190;18/05/25;19/05/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;221;Não;-;3
+1191;CUST01191;02/06/25;11/06/25;9;Norte;Bebidas;Suco de Laranja 1L;Dinheiro;780;Sim;Cobrança duplicada;2
+1192;CUST01192;15/05/25;17/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;309;Sim;Cobrança duplicada;2
+1193;CUST01193;04/06/25;12/06/25;8;Sul;Limpeza Doméstica;Esponja Múltipla;PIX;292;Não;-;3
+1194;CUST01194;01/06/25;09/06/25;8;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;501;Não;-;3
+1195;CUST01195;17/05/25;19/05/25;2;Sudeste;Bebidas;Refrigerante Cola 2L;PIX;1143;Não;-;3
+1196;CUST01196;03/06/25;08/06/25;5;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;279;Não;-;3
+1197;CUST01197;19/05/25;22/05/25;3;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;445;Não;Ótima qualidade;5
+1198;CUST01198;10/06/25;15/06/25;5;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1755;Não;Compra sem complicações;5
+1199;CUST01199;18/05/25;20/05/25;2;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1011;Não;-;3
+1200;CUST01200;10/06/25;15/06/25;5;Nordeste;Bebidas;Suco de Laranja 1L;PIX;768;Sim;Quantidade incorreta;1
+1201;CUST01201;26/06/25;29/06/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1325;Não;-;3
+1202;CUST01202;26/06/25;28/06/25;2;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;374;Não;-;3
+1203;CUST01203;27/05/25;06/06/25;10;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1794;Não;Compra sem complicações;4
+1204;CUST01204;29/05/25;01/06/25;3;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1207;Não;-;3
+1205;CUST01205;18/05/25;21/05/25;3;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;325;Sim;Atraso na entrega;1
+1206;CUST01206;12/06/25;21/06/25;9;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;892;Não;-;3
+1207;CUST01207;25/05/25;26/05/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;996;Não;-;3
+1208;CUST01208;15/06/25;21/06/25;6;Sul;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;400;Não;-;3
+1209;CUST01209;19/05/25;24/05/25;5;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;1142;Não;-;3
+1210;CUST01210;16/05/25;20/05/25;4;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;574;Não;-;3
+1211;CUST01211;01/06/25;04/06/25;3;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;486;Não;-;3
+1212;CUST01212;16/05/25;18/05/25;2;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1407;Não;-;3
+1213;CUST01213;16/06/25;17/06/25;1;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;381;Não;-;3
+1214;CUST01214;24/06/25;27/06/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Dinheiro;985;Não;-;3
+1215;CUST01215;20/06/25;25/06/25;5;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1170;Sim;Produto diferente do pedido;2
+1216;CUST01216;02/06/25;06/06/25;4;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;PIX;1008;Não;-;3
+1217;CUST01217;30/06/25;05/07/25;5;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;195;Não;-;3
+1218;CUST01218;31/05/25;07/06/25;7;Norte;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1265;Sim;Atraso na entrega;1
+1219;CUST01219;21/05/25;25/05/25;4;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;169;Não;-;3
+1220;CUST01220;15/06/25;18/06/25;3;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2801;Não;-;3
+1221;CUST01221;30/05/25;03/06/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1628;Não;-;3
+1222;CUST01222;30/06/25;10/07/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;145;Sim;Produto danificado;1
+1223;CUST01223;28/05/25;29/05/25;1;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1252;Sim;Produto diferente do pedido;2
+1224;CUST01224;21/05/25;22/05/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;299;Não;-;3
+1225;CUST01225;20/05/25;30/05/25;10;Norte;Alimentos Básicos;Macarrão Espaguete 500g;PIX;528;Não;-;3
+1226;CUST01226;30/05/25;04/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1119;Sim;Embalagem violada;2
+1227;CUST01227;08/06/25;11/06/25;3;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;787;Sim;Atendimento ruim;1
+1228;CUST01228;04/06/25;07/06/25;3;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1223;Não;Compra sem complicações;4
+1229;CUST01229;24/06/25;25/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;651;Não;-;3
+1230;CUST01230;25/05/25;27/05/25;2;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;481;Não;-;3
+1231;CUST01231;18/06/25;27/06/25;9;Sul;Alimentos Básicos;Farinha de Trigo 1kg;PIX;511;Não;-;3
+1232;CUST01232;13/06/25;18/06/25;5;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1219;Não;Atendimento excelente;5
+1233;CUST01233;30/05/25;03/06/25;4;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;864;Sim;Produto danificado;1
+1234;CUST01234;24/05/25;31/05/25;7;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1446;Não;-;3
+1235;CUST01235;12/06/25;13/06/25;1;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;397;Sim;Cobrança duplicada;2
+1236;CUST01236;27/06/25;07/07/25;10;Sul;Bebidas;Refrigerante Cola 2L;PIX;1080;Não;-;3
+1237;CUST01237;13/06/25;14/06/25;1;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Débito;886;Não;Atendimento excelente;4
+1238;CUST01238;02/06/25;10/06/25;8;Sul;Bebidas;Refrigerante Cola 2L;Cartão Débito;802;Não;-;3
+1239;CUST01239;27/06/25;29/06/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1299;Não;-;3
+1240;CUST01240;15/06/25;20/06/25;5;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1062;Não;-;3
+1241;CUST01241;29/06/25;09/07/25;10;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;400;Não;Entrega rápida e sem problemas;4
+1242;CUST01242;12/06/25;16/06/25;4;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;409;Sim;Produto diferente do pedido;1
+1243;CUST01243;10/06/25;19/06/25;9;Sul;Limpeza Doméstica;Esponja Múltipla;PIX;152;Não;-;3
+1244;CUST01244;21/05/25;27/05/25;6;Sul;Bebidas;Refrigerante Cola 2L;PIX;1085;Não;Compra sem complicações;5
+1245;CUST01245;31/05/25;03/06/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;760;Não;-;3
+1246;CUST01246;25/06/25;02/07/25;7;Norte;Bebidas;Água Mineral 1,5L;PIX;497;Não;-;3
+1247;CUST01247;16/06/25;17/06/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;428;Não;-;3
+1248;CUST01248;16/05/25;19/05/25;3;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;643;Não;-;3
+1249;CUST01249;27/06/25;02/07/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Dinheiro;427;Não;-;3
+1250;CUST01250;03/06/25;12/06/25;9;Norte;Higiene Pessoal;Sabonete em Barra;PIX;302;Não;-;3
+1251;CUST01251;18/06/25;28/06/25;10;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;591;Não;-;3
+1252;CUST01252;10/06/25;15/06/25;5;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1801;Não;-;3
+1253;CUST01253;19/05/25;26/05/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;633;Não;-;3
+1254;CUST01254;19/05/25;24/05/25;5;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;3024;Sim;Atendimento ruim;1
+1255;CUST01255;08/06/25;10/06/25;2;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;147;Não;-;3
+1256;CUST01256;30/05/25;04/06/25;5;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;462;Sim;Cobrança duplicada;2
+1257;CUST01257;26/06/25;06/07/25;10;Norte;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1720;Não;-;3
+1258;CUST01258;01/06/25;03/06/25;2;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;489;Não;-;3
+1259;CUST01259;29/06/25;30/06/25;1;Centro-Oeste;Bebidas;Água Mineral 1,5L;PIX;223;Sim;Atraso na entrega;2
+1260;CUST01260;28/05/25;31/05/25;3;Sudeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;574;Sim;Produto danificado;1
+1261;CUST01261;22/05/25;26/05/25;4;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;324;Não;-;3
+1262;CUST01262;26/05/25;27/05/25;1;Nordeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1310;Não;-;3
+1263;CUST01263;12/06/25;13/06/25;1;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;2023;Não;-;3
+1264;CUST01264;08/06/25;13/06/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;783;Não;-;3
+1265;CUST01265;16/06/25;18/06/25;2;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;152;Sim;Produto diferente do pedido;1
+1266;CUST01266;07/06/25;12/06/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;786;Não;-;3
+1267;CUST01267;10/06/25;20/06/25;10;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;389;Sim;Atraso na entrega;1
+1268;CUST01268;15/05/25;21/05/25;6;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;758;Não;-;3
+1269;CUST01269;18/05/25;19/05/25;1;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1126;Não;-;3
+1270;CUST01270;30/05/25;07/06/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;229;Não;-;3
+1271;CUST01271;06/06/25;08/06/25;2;Sudeste;Higiene Pessoal;Shampoo 400ml;PIX;1492;Não;-;3
+1272;CUST01272;24/06/25;03/07/25;9;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3216;Não;-;3
+1273;CUST01273;13/06/25;18/06/25;5;Sul;Bebidas;Água Mineral 1,5L;Cartão Débito;426;Não;-;3
+1274;CUST01274;23/05/25;28/05/25;5;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;447;Não;-;3
+1275;CUST01275;26/05/25;28/05/25;2;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;Cartão Débito;391;Não;-;3
+1276;CUST00147;19/06/25;22/06/25;3;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;257;Não;-;3
+1277;CUST00923;18/06/25;22/06/25;4;Sudeste;Bebidas;Água Mineral 1,5L;PIX;481;Não;-;3
+1278;CUST00137;20/06/25;22/06/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;308;Não;-;3
+1279;CUST01174;20/05/25;28/05/25;8;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;780;Não;-;3
+1280;CUST01099;11/06/25;12/06/25;1;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Dinheiro;1239;Não;Produto conforme anunciado;5
+1281;CUST00315;27/06/25;06/07/25;9;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;505;Não;-;3
+1282;CUST00466;21/06/25;30/06/25;9;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;429;Não;-;3
+1283;CUST00747;22/05/25;23/05/25;1;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1232;Não;-;3
+1284;CUST00381;14/06/25;18/06/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;982;Não;-;3
+1285;CUST00692;14/06/25;18/06/25;4;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;690;Não;-;3
+1286;CUST00157;11/06/25;15/06/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;801;Não;-;3
+1287;CUST00665;03/06/25;06/06/25;3;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;288;Sim;Atendimento ruim;2
+1288;CUST01019;24/05/25;27/05/25;3;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;515;Sim;Prazo de entrega excedido;2
+1289;CUST00723;25/06/25;01/07/25;6;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1317;Não;-;3
+1290;CUST00128;21/05/25;31/05/25;10;Norte;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;175;Não;-;3
+1291;CUST00651;17/06/25;26/06/25;9;Norte;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;387;Sim;Quantidade incorreta;1
+1292;CUST01193;16/06/25;17/06/25;1;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;809;Não;-;3
+1293;CUST00320;20/06/25;27/06/25;7;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;481;Não;-;3
+1294;CUST00087;13/06/25;19/06/25;6;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;653;Não;-;3
+1295;CUST01239;21/06/25;30/06/25;9;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1432;Não;Ótima qualidade;5
+1296;CUST00048;27/05/25;28/05/25;1;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;300;Não;-;3
+1297;CUST00686;10/06/25;15/06/25;5;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;270;Não;-;3
+1298;CUST00075;18/06/25;19/06/25;1;Centro-Oeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;918;Sim;Atendimento ruim;2
+1299;CUST01257;05/06/25;06/06/25;1;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;402;Não;-;3
+1300;CUST00122;27/06/25;07/07/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;366;Não;-;3
+1301;CUST00054;15/05/25;18/05/25;3;Nordeste;Higiene Pessoal;Creme Dental 90g;Cartão Débito;490;Não;-;3
+1302;CUST01156;02/06/25;04/06/25;2;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2520;Não;-;3
+1303;CUST01168;13/06/25;16/06/25;3;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;860;Não;-;3
+1304;CUST00329;22/05/25;31/05/25;9;Sul;Higiene Pessoal;Creme Dental 90g;PIX;400;Sim;Atraso na entrega;2
+1305;CUST01214;20/06/25;22/06/25;2;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Dinheiro;831;Não;-;3
+1306;CUST00865;18/05/25;24/05/25;6;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1233;Não;-;3
+1307;CUST00720;14/06/25;17/06/25;3;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;304;Sim;Prazo de entrega excedido;2
+1308;CUST01167;29/06/25;03/07/25;4;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;1005;Não;-;3
+1309;CUST00980;01/06/25;04/06/25;3;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1758;Sim;Produto diferente do pedido;1
+1310;CUST01195;04/06/25;09/06/25;5;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;490;Sim;Atraso na entrega;1
+1311;CUST00633;25/05/25;27/05/25;2;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1231;Não;-;3
+1312;CUST00811;18/05/25;23/05/25;5;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;859;Sim;Atraso na entrega;2
+1313;CUST01052;29/05/25;03/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Dinheiro;805;Sim;Cobrança duplicada;2
+1314;CUST00103;29/05/25;07/06/25;9;Sul;Limpeza Doméstica;Desinfetante 1L;PIX;674;Não;-;3
+1315;CUST00438;04/06/25;05/06/25;1;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3210;Não;-;3
+1316;CUST01166;15/05/25;18/05/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;785;Não;-;3
+1317;CUST00975;29/05/25;03/06/25;5;Nordeste;Higiene Pessoal;Shampoo 400ml;Cartão Débito;834;Não;-;3
+1318;CUST00096;19/06/25;21/06/25;2;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;PIX;407;Não;-;3
+1319;CUST01220;19/06/25;28/06/25;9;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1380;Não;-;3
+1320;CUST00541;03/06/25;12/06/25;9;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2442;Não;-;3
+1321;CUST01240;30/05/25;04/06/25;5;Sul;Bebidas;Suco de Laranja 1L;Cartão Crédito;638;Sim;Produto diferente do pedido;1
+1322;CUST00792;15/06/25;18/06/25;3;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;270;Não;-;3
+1323;CUST00642;11/06/25;14/06/25;3;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;550;Não;-;3
+1324;CUST00238;21/06/25;26/06/25;5;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Dinheiro;1091;Não;-;3
+1325;CUST00040;03/06/25;12/06/25;9;Norte;Bebidas;Refrigerante Cola 2L;Cartão Crédito;617;Não;-;3
+1326;CUST00554;22/06/25;30/06/25;8;Norte;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;278;Não;-;3
+1327;CUST01252;23/06/25;24/06/25;1;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1034;Sim;Embalagem violada;1
+1328;CUST01079;15/06/25;20/06/25;5;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;539;Não;-;3
+1329;CUST01132;20/05/25;23/05/25;3;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;623;Não;-;3
+1330;CUST00168;24/05/25;28/05/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;255;Não;-;3
+1331;CUST01271;22/05/25;31/05/25;9;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3302;Sim;Quantidade incorreta;1
+1332;CUST00280;02/06/25;05/06/25;3;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;509;Sim;Atraso na entrega;1
+1333;CUST00869;03/06/25;07/06/25;4;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2296;Não;-;3
+1334;CUST00540;21/06/25;30/06/25;9;Norte;Bebidas;Suco de Laranja 1L;PIX;826;Não;-;3
+1335;CUST00565;25/05/25;27/05/25;2;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;328;Sim;Quantidade incorreta;2
+1336;CUST01051;26/05/25;29/05/25;3;Centro-Oeste;Higiene Pessoal;Sabonete em Barra;PIX;239;Não;-;3
+1337;CUST00373;26/06/25;04/07/25;8;Norte;Limpeza Doméstica;Esponja Múltipla;PIX;246;Sim;Prazo de entrega excedido;1
+1338;CUST01145;04/06/25;13/06/25;9;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;712;Não;-;3
+1339;CUST00559;14/06/25;22/06/25;8;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1150;Não;-;3
+1340;CUST00405;21/05/25;27/05/25;6;Norte;Bebidas;Água Mineral 1,5L;Cartão Débito;500;Não;Atendimento excelente;4
+1341;CUST00226;15/06/25;20/06/25;5;Norte;Limpeza Doméstica;Desinfetante 1L;PIX;412;Não;-;3
+1342;CUST00515;25/05/25;31/05/25;6;Norte;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;453;Não;Atendimento excelente;4
+1343;CUST00605;28/06/25;02/07/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2001;Não;-;3
+1344;CUST00884;14/06/25;24/06/25;10;Sul;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3489;Não;-;3
+1345;CUST00009;27/06/25;28/06/25;1;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;534;Não;-;3
+1346;CUST00462;08/06/25;13/06/25;5;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;316;Não;-;3
+1347;CUST01268;06/06/25;07/06/25;1;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;909;Não;-;3
+1348;CUST00477;26/06/25;30/06/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1784;Não;-;3
+1349;CUST00800;17/05/25;24/05/25;7;Sul;Limpeza Doméstica;Desinfetante 1L;Dinheiro;432;Não;-;3
+1350;CUST00828;16/06/25;17/06/25;1;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;515;Não;Produto conforme anunciado;4
+1351;CUST00243;10/06/25;11/06/25;1;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);PIX;2138;Não;Compra sem complicações;5
+1352;CUST00173;26/06/25;01/07/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1026;Não;-;3
+1353;CUST00233;12/06/25;16/06/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;164;Não;-;3
+1354;CUST00006;24/05/25;01/06/25;8;Sul;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;653;Não;-;3
+1355;CUST00888;26/05/25;30/05/25;4;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;677;Sim;Quantidade incorreta;2
+1356;CUST01119;19/05/25;23/05/25;4;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2329;Não;-;3
+1357;CUST01100;25/05/25;29/05/25;4;Nordeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;3291;Sim;Produto diferente do pedido;1
+1358;CUST00036;09/06/25;13/06/25;4;Nordeste;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;395;Não;Ótima qualidade;4
+1359;CUST00186;15/05/25;25/05/25;10;Sul;Higiene Pessoal;Shampoo 400ml;PIX;812;Sim;Produto danificado;1
+1360;CUST00910;22/06/25;02/07/25;10;Sul;Bebidas;Refrigerante Cola 2L;PIX;616;Não;-;3
+1361;CUST00284;23/05/25;28/05/25;5;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;422;Não;-;3
+1362;CUST00763;18/06/25;23/06/25;5;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;668;Sim;Cobrança duplicada;1
+1363;CUST01033;07/06/25;13/06/25;6;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Dinheiro;1816;Não;Entrega rápida e sem problemas;5
+1364;CUST00438;27/05/25;31/05/25;4;Nordeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;578;Não;-;3
+1365;CUST00247;22/05/25;26/05/25;4;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;808;Não;-;3
+1366;CUST00736;15/05/25;21/05/25;6;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1818;Não;-;3
+1367;CUST00591;23/06/25;01/07/25;8;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1486;Não;-;3
+1368;CUST00124;29/05/25;02/06/25;4;Sudeste;Limpeza Doméstica;Esponja Múltipla;PIX;177;Não;-;3
+1369;CUST00760;18/05/25;22/05/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Débito;231;Não;-;3
+1370;CUST00666;05/06/25;07/06/25;2;Sudeste;Bebidas;Suco de Laranja 1L;Dinheiro;827;Não;-;3
+1371;CUST00164;01/06/25;04/06/25;3;Sudeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;469;Não;Produto conforme anunciado;4
+1372;CUST00355;23/05/25;27/05/25;4;Nordeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1568;Não;Compra sem complicações;5
+1373;CUST00348;24/06/25;25/06/25;1;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1321;Não;-;3
+1374;CUST00910;20/05/25;23/05/25;3;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;906;Não;-;3
+1375;CUST00784;28/05/25;07/06/25;10;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;400;Sim;Produto danificado;1
+1376;CUST00989;29/05/25;03/06/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1595;Não;-;3
+1377;CUST00871;16/06/25;21/06/25;5;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1999;Não;-;3
+1378;CUST00940;10/06/25;16/06/25;6;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1026;Não;-;3
+1379;CUST00652;24/05/25;26/05/25;2;Sudeste;Bebidas;Água Mineral 1,5L;Dinheiro;316;Não;-;3
+1380;CUST01066;28/05/25;29/05/25;1;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;PIX;127;Não;-;3
+1381;CUST00639;16/06/25;25/06/25;9;Sul;Bebidas;Suco de Laranja 1L;PIX;670;Não;-;3
+1382;CUST00870;01/06/25;10/06/25;9;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;239;Não;-;3
+1383;CUST00872;15/06/25;17/06/25;2;Nordeste;Higiene Pessoal;Sabonete em Barra;PIX;199;Não;-;3
+1384;CUST00640;24/05/25;01/06/25;8;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;383;Não;-;3
+1385;CUST00155;16/06/25;23/06/25;7;Sul;Higiene Pessoal;Sabonete em Barra;PIX;330;Sim;Cobrança duplicada;2
+1386;CUST01255;24/05/25;01/06/25;8;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;205;Não;-;3
+1387;CUST00401;25/06/25;30/06/25;5;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;346;Não;-;3
+1388;CUST01183;21/06/25;01/07/25;10;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1367;Não;-;3
+1389;CUST01139;11/06/25;19/06/25;8;Sul;Bebidas;Água Mineral 1,5L;Cartão Crédito;271;Sim;Quantidade incorreta;1
+1390;CUST00954;06/06/25;14/06/25;8;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1059;Não;-;3
+1391;CUST01125;16/05/25;26/05/25;10;Sul;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;818;Não;-;3
+1392;CUST01207;17/06/25;21/06/25;4;Centro-Oeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;127;Não;-;3
+1393;CUST00527;24/05/25;29/05/25;5;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;799;Não;-;3
+1394;CUST00298;14/06/25;20/06/25;6;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;155;Não;-;3
+1395;CUST00471;27/05/25;31/05/25;4;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;667;Não;-;3
+1396;CUST00162;22/05/25;24/05/25;2;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;973;Não;-;3
+1397;CUST00373;09/06/25;19/06/25;10;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Crédito;368;Sim;Produto danificado;2
+1398;CUST00038;23/06/25;26/06/25;3;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;564;Não;-;3
+1399;CUST00355;31/05/25;10/06/25;10;Norte;Higiene Pessoal;Shampoo 400ml;PIX;1440;Não;-;3
+1400;CUST01058;10/06/25;18/06/25;8;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1128;Não;Entrega rápida e sem problemas;4
+1401;CUST00627;17/06/25;20/06/25;3;Centro-Oeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;542;Não;-;3
+1402;CUST00443;01/06/25;10/06/25;9;Sul;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;706;Sim;Produto danificado;1
+1403;CUST01231;28/05/25;30/05/25;2;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;2269;Não;-;3
+1404;CUST00324;09/06/25;11/06/25;2;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1164;Sim;Produto diferente do pedido;1
+1405;CUST00229;16/06/25;20/06/25;4;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;PIX;242;Não;-;3
+1406;CUST00146;01/06/25;05/06/25;4;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;269;Não;-;3
+1407;CUST00400;22/05/25;23/05/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;489;Não;-;3
+1408;CUST00909;22/05/25;30/05/25;8;Norte;Bebidas;Refrigerante Cola 2L;Cartão Débito;898;Não;-;3
+1409;CUST00012;25/06/25;30/06/25;5;Sul;Bebidas;Suco de Laranja 1L;PIX;596;Não;-;3
+1410;CUST00861;16/05/25;24/05/25;8;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1451;Não;-;3
+1411;CUST01136;11/06/25;15/06/25;4;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;1956;Sim;Prazo de entrega excedido;1
+1412;CUST00710;30/05/25;02/06/25;3;Centro-Oeste;Bebidas;Refrigerante Cola 2L;Cartão Débito;907;Sim;Atendimento ruim;2
+1413;CUST00402;31/05/25;07/06/25;7;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Débito;711;Não;-;3
+1414;CUST00397;22/06/25;30/06/25;8;Sul;Bebidas;Suco de Laranja 1L;Cartão Débito;727;Não;-;3
+1415;CUST00012;17/06/25;21/06/25;4;Nordeste;Bebidas;Água Mineral 1,5L;Cartão Crédito;388;Não;Ótima qualidade;4
+1416;CUST00541;15/06/25;17/06/25;2;Sudeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1744;Não;-;3
+1417;CUST00810;05/06/25;06/06/25;1;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;616;Não;Produto conforme anunciado;4
+1418;CUST01262;16/06/25;17/06/25;1;Nordeste;Bebidas;Refrigerante Cola 2L;PIX;829;Sim;Quantidade incorreta;1
+1419;CUST00330;19/05/25;24/05/25;5;Nordeste;Higiene Pessoal;Papel Higiênico c/12;PIX;1204;Não;-;3
+1420;CUST00025;30/05/25;01/06/25;2;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1371;Sim;Atendimento ruim;2
+1421;CUST00490;22/05/25;26/05/25;4;Centro-Oeste;Alimentos Básicos;Macarrão Espaguete 500g;Dinheiro;593;Não;-;3
+1422;CUST00861;19/06/25;24/06/25;5;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);PIX;1244;Não;Atendimento excelente;4
+1423;CUST01065;22/05/25;26/05/25;4;Sudeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Débito;3446;Não;-;3
+1424;CUST00254;06/06/25;15/06/25;9;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;423;Não;-;3
+1425;CUST01109;17/06/25;21/06/25;4;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Débito;474;Não;-;3
+1426;CUST00365;11/06/25;15/06/25;4;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1101;Sim;Cobrança duplicada;2
+1427;CUST00101;08/06/25;11/06/25;3;Centro-Oeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;592;Não;-;3
+1428;CUST00006;22/06/25;25/06/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1060;Não;Atendimento excelente;5
+1429;CUST00348;22/06/25;01/07/25;9;Norte;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Crédito;447;Não;-;3
+1430;CUST00745;24/05/25;30/05/25;6;Norte;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1127;Sim;Atendimento ruim;1
+1431;CUST00499;11/06/25;12/06/25;1;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Débito;833;Não;-;3
+1432;CUST00041;23/06/25;30/06/25;7;Norte;Alimentos Básicos;Macarrão Espaguete 500g;PIX;534;Não;Ótima qualidade;4
+1433;CUST00975;19/06/25;27/06/25;8;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;460;Não;-;3
+1434;CUST01258;20/06/25;22/06/25;2;Centro-Oeste;Bebidas;Refrigerante Cola 2L;PIX;602;Não;-;3
+1435;CUST00213;28/05/25;31/05/25;3;Sudeste;Bebidas;Água Mineral 1,5L;PIX;295;Não;-;3
+1436;CUST00375;23/06/25;03/07/25;10;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;908;Não;-;3
+1437;CUST00120;18/05/25;20/05/25;2;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;401;Não;-;3
+1438;CUST00968;09/06/25;13/06/25;4;Nordeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;507;Não;-;3
+1439;CUST00501;04/06/25;14/06/25;10;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Débito;1471;Sim;Embalagem violada;1
+1440;CUST01195;27/05/25;01/06/25;5;Norte;Bebidas;Água Mineral 1,5L;Cartão Crédito;290;Não;-;3
+1441;CUST00727;03/06/25;13/06/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;PIX;576;Não;-;3
+1442;CUST00489;31/05/25;02/06/25;2;Sudeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1224;Não;-;3
+1443;CUST00288;17/05/25;18/05/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;Cartão Débito;724;Não;-;3
+1444;CUST00906;22/05/25;23/05/25;1;Sudeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Débito;1713;Sim;Atendimento ruim;1
+1445;CUST00101;18/06/25;22/06/25;4;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;PIX;2188;Não;-;3
+1446;CUST00555;19/06/25;28/06/25;9;Sul;Bebidas;Água Mineral 1,5L;PIX;439;Sim;Embalagem violada;2
+1447;CUST01248;08/06/25;12/06/25;4;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;728;Não;-;3
+1448;CUST00545;17/05/25;18/05/25;1;Nordeste;Limpeza Doméstica;Detergente Líquido 500ml;Dinheiro;326;Não;-;3
+1449;CUST01178;18/06/25;20/06/25;2;Centro-Oeste;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;2721;Não;-;3
+1450;CUST00597;18/06/25;20/06/25;2;Sudeste;Bebidas;Suco de Laranja 1L;Cartão Crédito;507;Não;-;3
+1451;CUST00595;17/05/25;22/05/25;5;Norte;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;830;Não;Compra sem complicações;4
+1452;CUST00939;19/06/25;22/06/25;3;Nordeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;1029;Não;-;3
+1453;CUST00465;21/05/25;30/05/25;9;Sul;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;142;Não;-;3
+1454;CUST00006;25/06/25;05/07/25;10;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;285;Não;Compra sem complicações;5
+1455;CUST00708;19/06/25;21/06/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;483;Não;-;3
+1456;CUST01039;20/05/25;26/05/25;6;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;715;Não;-;3
+1457;CUST00339;15/05/25;16/05/25;1;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Débito;1870;Não;-;3
+1458;CUST00368;13/06/25;14/06/25;1;Centro-Oeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;525;Não;-;3
+1459;CUST00707;21/05/25;24/05/25;3;Sudeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1178;Não;-;3
+1460;CUST00014;06/06/25;16/06/25;10;Norte;Bebidas;Água Mineral 1,5L;Cartão Débito;288;Sim;Produto danificado;2
+1461;CUST00988;30/05/25;31/05/25;1;Nordeste;Limpeza Doméstica;Sabão em Pó 1kg;PIX;1286;Sim;Embalagem violada;1
+1462;CUST00867;06/06/25;10/06/25;4;Sudeste;Bebidas;Refrigerante Cola 2L;Cartão Crédito;618;Não;-;3
+1463;CUST00223;03/06/25;12/06/25;9;Sul;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Débito;1313;Não;-;3
+1464;CUST01014;18/06/25;22/06/25;4;Sudeste;Higiene Pessoal;Creme Dental 90g;Cartão Crédito;409;Não;-;3
+1465;CUST01234;22/05/25;25/05/25;3;Sudeste;Limpeza Doméstica;Desinfetante 1L;PIX;482;Não;Entrega rápida e sem problemas;4
+1466;CUST00714;30/05/25;03/06/25;4;Nordeste;Limpeza Doméstica;Esponja Múltipla;Cartão Crédito;249;Sim;Cobrança duplicada;1
+1467;CUST00613;06/06/25;14/06/25;8;Sul;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1542;Não;Entrega rápida e sem problemas;4
+1468;CUST00590;24/05/25;26/05/25;2;Sudeste;Higiene Pessoal;Sabonete em Barra;PIX;315;Não;-;3
+1469;CUST00857;02/06/25;07/06/25;5;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Débito;579;Não;Atendimento excelente;4
+1470;CUST00022;03/06/25;09/06/25;6;Norte;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;803;Sim;Cobrança duplicada;2
+1471;CUST00569;18/06/25;20/06/25;2;Sudeste;Limpeza Doméstica;Esponja Múltipla;Cartão Débito;118;Não;Compra sem complicações;4
+1472;CUST00658;17/05/25;21/05/25;4;Sudeste;Alimentos Básicos;Farinha de Trigo 1kg;PIX;676;Não;-;3
+1473;CUST00408;03/06/25;10/06/25;7;Norte;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;639;Sim;Prazo de entrega excedido;2
+1474;CUST00441;03/06/25;11/06/25;8;Norte;Bebidas;Refrigerante Cola 2L;Cartão Débito;798;Não;-;3
+1475;CUST00254;30/05/25;06/06/25;7;Norte;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1504;Não;-;3
+1476;CUST00673;22/06/25;24/06/25;2;Centro-Oeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;1231;Não;-;3
+1477;CUST00572;03/06/25;08/06/25;5;Sudeste;Limpeza Doméstica;Desinfetante 1L;Cartão Crédito;306;Não;-;3
+1478;CUST01116;01/06/25;05/06/25;4;Nordeste;Bebidas;Suco de Laranja 1L;PIX;799;Sim;Embalagem violada;2
+1479;CUST00804;08/06/25;15/06/25;7;Norte;Higiene Pessoal;Sabonete em Barra;Cartão Débito;265;Não;-;3
+1480;CUST00097;28/06/25;05/07/25;7;Sul;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1108;Sim;Cobrança duplicada;1
+1481;CUST00177;27/06/25;02/07/25;5;Norte;Bebidas;Suco de Laranja 1L;Cartão Crédito;680;Não;-;3
+1482;CUST00165;17/05/25;22/05/25;5;Nordeste;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;1034;Sim;Embalagem violada;1
+1483;CUST00892;07/06/25;12/06/25;5;Sul;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;431;Não;-;3
+1484;CUST00699;16/06/25;21/06/25;5;Sul;Alimentos Básicos;Feijão Carioca (1kg);Cartão Crédito;644;Sim;Produto diferente do pedido;2
+1485;CUST00370;27/05/25;28/05/25;1;Centro-Oeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;740;Não;-;3
+1486;CUST00857;06/06/25;15/06/25;9;Norte;Limpeza Doméstica;Detergente Líquido 500ml;PIX;519;Não;-;3
+1487;CUST01124;02/06/25;06/06/25;4;Nordeste;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;465;Sim;Embalagem violada;2
+1488;CUST01129;27/05/25;05/06/25;9;Norte;Alimentos Básicos;Arroz Tipo 1 (5kg);Cartão Crédito;3303;Não;-;3
+1489;CUST00386;11/06/25;12/06/25;1;Nordeste;Alimentos Básicos;Macarrão Espaguete 500g;PIX;779;Não;-;3
+1490;CUST01131;14/06/25;18/06/25;4;Nordeste;Higiene Pessoal;Shampoo 400ml;PIX;1778;Não;-;3
+1491;CUST01014;15/06/25;18/06/25;3;Sudeste;Limpeza Doméstica;Sabão em Pó 1kg;Cartão Crédito;1302;Não;-;3
+1492;CUST00164;26/05/25;30/05/25;4;Centro-Oeste;Alimentos Básicos;Feijão Carioca (1kg);PIX;1006;Não;-;3
+1493;CUST00395;28/06/25;01/07/25;3;Centro-Oeste;Bebidas;Suco de Laranja 1L;PIX;676;Não;-;3
+1494;CUST00087;26/05/25;31/05/25;5;Sudeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;486;Não;-;3
+1495;CUST00169;22/05/25;30/05/25;8;Sul;Alimentos Básicos;Farinha de Trigo 1kg;Cartão Crédito;621;Não;Entrega rápida e sem problemas;4
+1496;CUST00399;25/06/25;27/06/25;2;Centro-Oeste;Higiene Pessoal;Papel Higiênico c/12;Cartão Crédito;1339;Não;-;3
+1497;CUST00865;26/05/25;31/05/25;5;Centro-Oeste;Bebidas;Cerveja Pilsen 350ml (pack 6);Cartão Crédito;1223;Não;-;3
+1498;CUST00476;21/06/25;25/06/25;4;Sudeste;Higiene Pessoal;Shampoo 400ml;Cartão Crédito;916;Não;-;3
+1499;CUST01029;17/05/25;26/05/25;9;Sul;Higiene Pessoal;Sabonete em Barra;Cartão Débito;250;Não;-;3
+1500;CUST00605;28/05/25;30/05/25;2;Centro-Oeste;Limpeza Doméstica;Detergente Líquido 500ml;Cartão Crédito;275;Não;-;3

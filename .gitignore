@@ -1,0 +1,13 @@
+# Chaves e segredos - nunca versionar
+.env
+*.env
+!.env.example
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
